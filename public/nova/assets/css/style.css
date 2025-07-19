@@ -789,6 +789,16 @@ h6 {
   font-size: 0.75rem;
   margin-bottom: 10px;
 }
+ .hero-subtitle {
+  background: color-mix(in srgb, #B5E9FF, transparent 70%);
+  color: #00265C;
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 7px;
+  font-weight: 600;
+  font-size: 0.75rem;
+  margin-bottom: 10px;
+}
 
 .hero__v6 .hero-title {
   font-size: 48px;
@@ -918,8 +928,8 @@ h6 {
 }
 
 .about__v4 .subtitle {
-  background-color: rgba(var(--bs-secondary-rgb), 0.2);
-  color: var(--bs-primary);
+  background-color: #B5E9FF;
+  color: #00265C;
   display: inline-block;
   padding: 5px 12px;
   border-radius: 7px;
@@ -944,7 +954,7 @@ h6 {
 }
 .about__v4 .mission-statement h3 {
   font-size: 10px;
-  color: var(--bs-secondary);
+  color: white;
 }
 .about__v4 .mission-statement p {
   color: var(--bs-white);
@@ -957,10 +967,10 @@ h6 {
           flex: 0 0 50px;
   line-height: 50px;
   display: inline-block;
-  background-color: rgba(var(--bs-secondary-rgb), 0.1);
+  background-color: #B5E9FF;
 }
 .about__v4 .mission-icon i {
-  color: var(--bs-secondary);
+  color: white;
 }
 
 .pricing__v2 .subtitle {
@@ -1012,8 +1022,8 @@ h6 {
 }
 
 .howitworks__v1 .subtitle {
-  background-color: rgba(var(--bs-secondary-rgb), 0.2);
-  color: var(--bs-primary);
+  background-color: #B5E9FF;
+  color: #002355;
   display: inline-block;
   padding: 5px 12px;
   border-radius: 7px;
@@ -1030,8 +1040,8 @@ h6 {
   height: 60px;
   line-height: 60px;
   display: inline-block;
-  color: var(--bs-secondary);
-  background-color: var(--bs-primary);
+  color: white;
+  background-color: #002355;
   font-size: 18px;
 }
 .howitworks__v1 .arch-line {
@@ -1093,8 +1103,8 @@ h6 {
 }
 
 .faq__v2 .subtitle {
-  background-color: rgba(var(--bs-secondary-rgb), 0.2);
-  color: var(--bs-primary);
+  background-color: #B5E9FF;
+  color: #00265B;
   display: inline-block;
   padding: 5px 12px;
   border-radius: 7px;
@@ -1169,6 +1179,10 @@ h6 {
   border-top: none;
 }
 
+/* testimoni */
+
+
+
 .stats__v3 .content {
   padding-top: 70px;
   padding-bottom: 70px;
@@ -1206,8 +1220,8 @@ h6 {
 }
 
 .testimonials__v2 .subtitle {
-  background-color: rgba(var(--bs-secondary-rgb), 0.2);
-  color: var(--bs-primary);
+  background-color: #B5E9FF;
+  color: #00265B;
   display: inline-block;
   padding: 5px 12px;
   border-radius: 7px;
@@ -1287,7 +1301,7 @@ h6 {
   right: 20px;
   visibility: hidden;
   opacity: 0;
-  background-color: var(--bs-primary);
+  background-color: #002355;
   color: white;
   border: none;
   border-radius: 50%;

@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\FormDaftarController;
+use App\Http\Controllers\LandingController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +18,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('landing');
 });
+
+    Route::get('/FormDaftar/form', [FormDaftarController::class, 'index'])->name('FormDaftar.form');
+    Route::get('/landing', [LandingController::class, 'index'])->name('Landing');
+
+Route::post('/kirim-pendaftaran', [FormDaftarController::class, 'kirim'])->name('form.kirim');
+
