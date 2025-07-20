@@ -117,9 +117,9 @@ License: https://freebootstrap.net/license
                             <li class="nav-item"><a class="nav-link scroll-link active" aria-current="page"
                                     href="{{ route('Landing') }}">Beranda</a></li>
                             <li class="nav-item"><a class="nav-link scroll-link" href="#about">Tentang</a></li>
-                            <li class="nav-item"><a class="nav-link scroll-link" href="#pricing">Profile</a></li>
-                            <li class="nav-item"><a class="nav-link scroll-link" href="#how-it-works">Program</a></li>
-                            <li class="nav-item"><a class="nav-link scroll-link" href="#services">Pendaftaran</a></li>
+                            <li class="nav-item"><a class="nav-link scroll-link" href="">Profile</a></li>
+                            <li class="nav-item"><a class="nav-link scroll-link" href="#pricing">Program</a></li>
+                            <li class="nav-item"><a class="nav-link scroll-link" href="{{ route('FormDaftar.form') }}">Pendaftaran</a></li>
                             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#"
                                     data-bs-toggle="dropdown" aria-expanded="false">Dropdown <i
                                         class="bi bi-chevron-down"></i></a>
@@ -167,7 +167,7 @@ License: https://freebootstrap.net/license
                                 </ul>
 
                             </li>
-                            <li class="nav-item"><a class="nav-link scroll-link" href="#contact">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link scroll-link" href="#faq">Kontak</a></li>
                         </ul>
 
                     </div>

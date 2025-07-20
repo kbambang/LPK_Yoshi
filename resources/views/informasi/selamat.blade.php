@@ -17,9 +17,7 @@
                               Selamat atas pencapaian yang yang telah di raih
                           </h2>
                           <p data-aos="fade-up" data-aos-delay="200">
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                              been the
-                              industry's standard dummy text ever since the 1500s, </p>
+                            Perjuangan dan kerja kerasmu dalam mengikuti pelatihan akhirnya membuahkan hasil. Semoga pengalaman di Jepang menjadi langkah awal menuju masa depan yang lebih cerah.</p>
 
 
                           <div class="row g-3">

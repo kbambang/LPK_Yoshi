@@ -219,9 +219,11 @@
                       perusahaan.</li>
               </ul>
 
-              <a href="{{ route('FormDaftar.form') }}" class="btn btn-light text-dark fw-semibold px-4 py-2"
-                  style="background-color: #cce9ff;">Daftar</a>
-
+             <div class="text-center mt-5">
+            <a href="{{ route('FormDaftar.form') }}" class="btn btn-lg fw-semibold px-4 py-2" style="background-color: #cce9ff; color: #002355;">
+                Daftar Sekarang
+            </a>
+        </div>
 
           </div>
           </div>

@@ -80,7 +80,7 @@
                                 data-aos-delay="500"></div>
                     </div>
                 </div>
-                <div class="container">
+                <div class="container" data-aos="fade-up" data-aos-delay="400">
                     <div class="row">
                         <div class="col-md-15 order-md-2">
                             <div class="row justify-content-end">
@@ -109,45 +109,60 @@
                                 <h2 class="mb-4" data-aos="fade-up" data-aos-delay="100">LPK Yoshi Sakatana
                                     Mandiri.</h2>
                                 <div data-aos="fade-up" data-aos-delay="200">
-                                    <p>Adalah lembaga pendidikan dan pelatihan yang berkomitmen untuk mencetak
-                                        generasi unggul dengan memberikan keterampilan praktis yang relevan dengan
-                                        perkembangan dunia industri. Berdiri dengan visi untuk menciptakan individu
-                                        yang terampil dan siap bersaing di pasar global, kami menyediakan berbagai
-                                        program pelatihan yang dirancang untuk memenuhi kebutuhan tenaga kerja yang
-                                        berkualitas.</p>
+                                    <p>LPK Yoshi Sakatana Mandiri berperan untuk mempersiapkan SDM untuk mengikuti program
+                                        magang, kerja dan belajar di Jepang. Mencakup persiapan diantaranya pelatihan bahasa
+                                        dan
+                                        budaya jepang, membangun etos kerja, serta pemahaman yang mendalam dalam bidang
+                                        spesifik
+                                        secara insentif. Serta membentuk sikap, mental, disiplin dan keterampilan dan juga
+                                        kemandirian
+                                        untuk persiapan kerja dan tinggal di Jepang</p>
                                     {{-- <p>Our cutting-edge platform ensures your transactions are safe, streamlined, and easy to manage, empowering you to take control of your financial journey with confidence and convenience.</p> --}}
                                 </div><br><br>
-                                <ul class="d-flex flex-row flex-wrap list-unstyled gap-3 features" data-aos="fade-up"
+                                <ul class="flex-row flex-wrap list-unstyled gap-3 features" data-aos="fade-up"
                                     data-aos-delay="400">
-                                    <li class="d-flex align-items-center gap-2"><span
-                                            class="icon rounded-circle text-center"><i class="bi bi-check"></i></span><span
-                                            class="text">Fasilitas
-                                            Lengkap & Nyaman</span></li>
-                                    <li class="d-flex align-items-center gap-2"><span
-                                            class="icon rounded-circle text-center"><i class="bi bi-check"></i></span><span
-                                            class="text">Pelatihan
-                                            Budaya & Etika Kerja Jepang</span></li>
-                                    <li class="d-flex align-items-center gap-2"><span
-                                            class="icon rounded-circle text-center"><i class="bi bi-check"></i></span><span
-                                            class="text">Proses
-                                            Pemberangkatan Terstruktur </span></li>
-                                    <li class="d-flex align-items-center gap-2"><span
-                                            class="icon rounded-circle text-center"><i
-                                                class="bi bi-check"></i></span><span class="text">Terdaftar
-                                            Resmi & Legal</span></li>
-                                    <li class="d-flex align-items-center gap-2"><span
-                                            class="icon rounded-circle text-center"><i
-                                                class="bi bi-check"></i></span><span class="text">Pembelajaran
-                                            Bahasa Jepang N5-N3</span></li>
-                                    <li class="d-flex align-items-center gap-2"><span
-                                            class="icon rounded-circle text-center"><i
-                                                class="bi bi-check"></i></span><span class="text"> Dibimbing
-                                            Mentor Berpengalaman</span></li>
+                                    <li class="d-flex align-items-center gap-2 mb-3">
+                                        <span class="check-icon">
+                                            <i class="bi bi-check-lg"></i>
+                                        </span>
+                                        <span class="text">Fasilitas Lengkap & Nyaman</span>
+                                    </li>
+                                    <li class="d-flex align-items-center gap-2 mb-3">
+                                        <span class="check-icon">
+                                            <i class="bi bi-check-lg"></i>
+                                        </span>
+                                        <span class="text">Pelatihan Budaya & Etika Kerja Jepang</span>
+                                    </li>
+                                    <li class="d-flex align-items-center gap-2 mb-3">
+                                        <span class="check-icon">
+                                            <i class="bi bi-check-lg"></i>
+                                        </span>
+                                        <span class="text">Proses Pemberangkatan Terstruktur</span>
+                                    </li>
+                                    <li class="d-flex align-items-center gap-2 mb-3">
+                                        <span class="check-icon">
+                                            <i class="bi bi-check-lg"></i>
+                                        </span>
+                                        <span class="text">Terdaftar Resmi & Legal</span>
+                                    </li>
+                                    <li class="d-flex align-items-center gap-2 mb-3">
+                                        <span class="check-icon">
+                                            <i class="bi bi-check-lg"></i>
+                                        </span>
+                                        <span class="text">Pembelajaran Bahasa Jepang N5-N3</span>
+                                    </li>
+                                    <li class="d-flex align-items-center gap-2 mb-3">
+                                        <span class="check-icon">
+                                            <i class="bi bi-check-lg"></i>
+                                        </span>
+                                        <span class="text">Dibimbing Mentor Berpengalaman</span>
+                                    </li>
                                 </ul>
+
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
                         <div class="img-wrap position-relative">
                             <div class="image-container">
                                 <img src="{{ asset('images/Picture-hitori.png') }}" class="img img1" />
@@ -493,7 +508,9 @@
                                     </div>
                                 </div>
                                 <blockquote class="mb-3">
-                                    &ldquo; Lpk yoshi sakatana mandiri adalah lpk yang bagus, bersih, dan disiplin. soshite selama saya berada disini saya menjadi lebih baik dari sebelumnya, orang orang nya ramah serta baik hati.&rdquo;
+                                    &ldquo; Lpk yoshi sakatana mandiri adalah lpk yang bagus, bersih, dan disiplin. soshite
+                                    selama saya berada disini saya menjadi lebih baik dari sebelumnya, orang orang nya ramah
+                                    serta baik hati.&rdquo;
                                 </blockquote>
                             </div>
                         </div>
@@ -508,7 +525,9 @@
                                     </div>
                                 </div>
                                 <blockquote class="mb-3">
-                                    &ldquo;Lpk yoshi sakatana mandiri adalah lpk yang yang bagus, disini kita tidak hanya diajar kan tentang bahasanya saja tapi kita juga di ajarkan bagaimana budaya jepang yang baik dan benar. &rdquo;
+                                    &ldquo;Lpk yoshi sakatana mandiri adalah lpk yang yang bagus, disini kita tidak hanya
+                                    diajar kan tentang bahasanya saja tapi kita juga di ajarkan bagaimana budaya jepang yang
+                                    baik dan benar. &rdquo;
                                 </blockquote>
                             </div>
                         </div>
@@ -523,7 +542,9 @@
                                     </div>
                                 </div>
                                 <blockquote class="mb-3">
-                                    &ldquo; Belajar bahasa Jepang di LPK Yoshi sangat menyenangkan. Metodenya mudah dipahami, dan instruktur selalu sabar menjelaskan. Setelah lulus, saya lolos JLPT N4 dan siap melanjutkan karir di Jepang.&rdquo;
+                                    &ldquo; Belajar bahasa Jepang di LPK Yoshi sangat menyenangkan. Metodenya mudah
+                                    dipahami, dan instruktur selalu sabar menjelaskan. Setelah lulus, saya lolos JLPT N4 dan
+                                    siap melanjutkan karir di Jepang.&rdquo;
                                 </blockquote>
                             </div>
                         </div>
@@ -538,7 +559,9 @@
                                     </div>
                                 </div>
                                 <blockquote class="mb-3">
-                                    &ldquo; Senang rasanya bisa belajar bahasa jepang di lpk ini, dari yang tadinya tidak bisa sama sekali dan sekarang sudah bisa bekerja di jepang dan mempunyai usaha seblak jeletot &rdquo;
+                                    &ldquo; Senang rasanya bisa belajar bahasa jepang di lpk ini, dari yang tadinya tidak
+                                    bisa sama sekali dan sekarang sudah bisa bekerja di jepang dan mempunyai usaha seblak
+                                    jeletot &rdquo;
                                 </blockquote>
                             </div>
                         </div>
@@ -568,7 +591,9 @@
                                     </div>
                                 </div>
                                 <blockquote class="mb-3">
-                                    &ldquo; Lpk yoshi sakatana mandiri adalah lpk yang terbaik menurut saya, disini saya sangat mudah dalam belajar bahasa jepang dari yang tadinya tidak bisa sama sekali sampai bisa mendapatkan n2 &rdquo;
+                                    &ldquo; Lpk yoshi sakatana mandiri adalah lpk yang terbaik menurut saya, disini saya
+                                    sangat mudah dalam belajar bahasa jepang dari yang tadinya tidak bisa sama sekali sampai
+                                    bisa mendapatkan n2 &rdquo;
                                 </blockquote>
                             </div>
                         </div>
@@ -586,16 +611,16 @@
         {{-- berita --}}
 
         <section class="section testimonials__v2 " id="testimonials">
-            <div class="container">
+            <div class="container" data-aos="fade-up" data-aos-delay="400">
                 <div class="row g-4" data-masonry='{"percentPosition": true }'>
 
                     <!-- BERITA (lebih besar) -->
-                    <div class="col-md-12 col-lg-6" data-aos="fade-up" data-aos-delay="0">
+                    <div class="col-md-12 col-lg-6">
                         <div><span class="subtitle text-uppercase mb-4">Berita</span></div>
                         <div class="testimonial rounded-4 p-4">
                             <div class="row g-3">
                                 <!-- Kartu Berita 1 -->
-                                <div class="col-6" data-aos="fade-up" data-aos-delay="0">
+                                <div class="col-6">
                                     <div class="testimonial p-2 rounded-4">
                                         <!-- Gambar -->
                                         <div class="rounded-4 overflow-hidden mb-2" style="height: 150px;">
@@ -625,7 +650,8 @@
                                     </div>
                                 </div>
                             </div><br>
-                            <h4 class="text-center"><a href="{{ route('informasi.berita') }}" style=" text-decoration: none;">Selengkapnya ></a></h4>
+                            <h4 class="text-center"><a href="{{ route('informasi.berita') }}"
+                                    style=" text-decoration: none;">Selengkapnya ></a></h4>
                         </div>
                     </div>
 
@@ -644,7 +670,8 @@
                                         <img src="{{ asset('images/omo.png') }}" alt=""
                                             style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
                                     </div><br>
-                            <h4 class="text-center"><a href="{{ route('informasi.selamat') }}" style=" text-decoration: none;">Selengkapnya ></a></h4>
+                                    <h4 class="text-center"><a href="{{ route('informasi.selamat') }}"
+                                            style=" text-decoration: none;">Selengkapnya ></a></h4>
                                 </div>
                             </div>
 
@@ -652,21 +679,22 @@
                             <div class="col-12 col-md-6" data-aos="fade-up" data-aos-delay="100">
                                 <div><span class="subtitle text-uppercase mb-4">Pengumuman</span></div>
                                 <div class="testimonial rounded-4 p-4">
-                                   
-                                        <div class="rounded-4 overflow-hidden mb-3" style="height: 100px;">
-                                            <img src="{{ asset('images/qqq.png') }}" alt=""
-                                                style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
-                                        </div>
-                                        <div class="rounded-4 overflow-hidden mb-3" style="height: 100px;">
-                                            <img src="{{ asset('images/qqq (2).png') }}" alt=""
-                                                style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
-                                        </div>
-                                        <div class="rounded-4 overflow-hidden mb-3" style="height: 100px;">
-                                            <img src="{{ asset('images/picture(14).png') }}" alt=""
-                                                style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
-                                        </div>
-                                  
-                            <h4 class="text-center"><a href="{{ route('informasi.pengumuman') }}" style=" text-decoration: none;">Selengkapnya ></a></h4>
+
+                                    <div class="rounded-4 overflow-hidden mb-3" style="height: 100px;">
+                                        <img src="{{ asset('images/qqq.png') }}" alt=""
+                                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                                    </div>
+                                    <div class="rounded-4 overflow-hidden mb-3" style="height: 100px;">
+                                        <img src="{{ asset('images/qqq (2).png') }}" alt=""
+                                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                                    </div>
+                                    <div class="rounded-4 overflow-hidden mb-3" style="height: 100px;">
+                                        <img src="{{ asset('images/picture(14).png') }}" alt=""
+                                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                                    </div>
+
+                                    <h4 class="text-center"><a href="{{ route('informasi.pengumuman') }}"
+                                            style=" text-decoration: none;">Selengkapnya ></a></h4>
                                 </div>
                             </div>
 
@@ -681,7 +709,8 @@
             </div>
         </section>
 
-        <section class="text-white d-flex align-items-center" style="background-color: #00255c; min-height: 350px;">
+        <section class="text-white d-flex align-items-center" style="background-color: #00255c; min-height: 350px;"
+            data-aos="fade-up" data-aos-delay="400">
             <div class="container text-center">
                 <div class="mx-auto" style="max-width: 1100px;">
                     <h2 class="fw-bold mb-4" style="font-size: 2.5rem; color: white;">Siap Daftar LPK?</h2>
@@ -769,7 +798,8 @@
                             <!-- Tambah lagi sesuka kamu -->
 
                         </div><br>
-                            <h4 class="text-center"><a href="{{ route('informasi.gallery') }}" style=" text-decoration: none;">Selengkapnya ></a></h4>
+                        <h4 class="text-center"><a href="{{ route('informasi.gallery') }}"
+                                style=" text-decoration: none;">Selengkapnya ></a></h4>
                     </div>
                 </div>
             </div>
@@ -782,10 +812,12 @@
                 <div class="row mb-4">
                     <div class="col-md-6 col-lg-10 mx-auto text-center"><span class="subtitle text-uppercase mb-3"
                             data-aos="fade-up" data-aos-delay="0">FAQ</span>
-                        <h2 class="h2 fw-bold mb-3" data-aos="fade-up" data-aos-delay="0">Ingin Daftar Tapi Masih Bingung? Cek FAQ Berikut</h2>
-                        <p data-aos="fade-up" data-aos-delay="100">Temukan jawaban dari pertanyaan umum seputar pelatihan, proses seleksi, dan keberangkatan ke Jepang melalui LPK Yoshi Sakatana Mandiri.
+                        <h2 class="h2 fw-bold mb-3" data-aos="fade-up" data-aos-delay="0">Ingin Daftar Tapi Masih
+                            Bingung? Cek FAQ Berikut</h2>
+                        <p data-aos="fade-up" data-aos-delay="100">Temukan jawaban dari pertanyaan umum seputar pelatihan,
+                            proses seleksi, dan keberangkatan ke Jepang melalui LPK Yoshi Sakatana Mandiri.
 
-</p>
+                        </p>
                     </div>
                 </div>
                 <div class="row">
@@ -797,25 +829,25 @@
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseOne" aria-expanded="true"
                                             aria-controls="collapseOne">
-                                         Apa aja  persyaratan mengikuti program pelatihan?
+                                            Apa aja persyaratan mengikuti program pelatihan?
                                         </button>
                                     </h2>
                                     <div id="collapseOne" class="accordion-collapse collapse show"
                                         aria-labelledby="headingOne" data-bs-parent="#accordionFAQ">
                                         <div class="accordion-body">
-                                           <ul>
-                                            <li> Laki-laki / Perempuan
-Usia 18 Tahun - 35 Tahun</li>
-<li>Tinggi Badan
-Putri Minimal 150 cm
-Putra Minimal 160 Cm</li>
-<li> Sehat Jasmani dan Rohani</li>
-<li> Tidak bertato, bertindik
-dan tidak buta warna</li>
-<li> Pendidikan Minimal
-SMA/SMK/Sederajat/Paket C</li>
-<li>Tidak Buta Warna</li>
-                                           </ul>
+                                            <ul>
+                                                <li> Laki-laki / Perempuan
+                                                    Usia 18 Tahun - 35 Tahun</li>
+                                                <li>Tinggi Badan
+                                                    Putri Minimal 150 cm
+                                                    Putra Minimal 160 Cm</li>
+                                                <li> Sehat Jasmani dan Rohani</li>
+                                                <li> Tidak bertato, bertindik
+                                                    dan tidak buta warna</li>
+                                                <li> Pendidikan Minimal
+                                                    SMA/SMK/Sederajat/Paket C</li>
+                                                <li>Tidak Buta Warna</li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -825,14 +857,16 @@ SMA/SMK/Sederajat/Paket C</li>
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
                                             aria-controls="collapseTwo">
-                                          Apakah LPK Yoshi Sakatana Mandiri sudah terdaftar secara resmi?
+                                            Apakah LPK Yoshi Sakatana Mandiri sudah terdaftar secara resmi?
 
                                         </button>
                                     </h2>
                                     <div id="collapseTwo" class="accordion-collapse collapse"
                                         aria-labelledby="headingTwo" data-bs-parent="#accordionFAQ">
                                         <div class="accordion-body">
- Ya, LPK Yoshi Sakatana Mandiri telah terdaftar resmi dan legal, memiliki izin operasional dan bekerja sama dengan berbagai lembaga penyalur tenaga kerja ke Jepang.                                        </div>
+                                            Ya, LPK Yoshi Sakatana Mandiri telah terdaftar resmi dan legal, memiliki izin
+                                            operasional dan bekerja sama dengan berbagai lembaga penyalur tenaga kerja ke
+                                            Jepang. </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
@@ -840,13 +874,14 @@ SMA/SMK/Sederajat/Paket C</li>
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                             aria-expanded="false" aria-controls="collapseThree">
-                                           Apakah harus bisa bahasa Jepang dulu sebelum mendaftar?
+                                            Apakah harus bisa bahasa Jepang dulu sebelum mendaftar?
                                         </button>
                                     </h2>
                                     <div id="collapseThree" class="accordion-collapse collapse"
                                         aria-labelledby="headingThree" data-bs-parent="#accordionFAQ">
                                         <div class="accordion-body">
-                                           Tidak harus. Semua peserta akan mulai dari dasar (N5), dan akan dibimbing hingga bisa memahami bahasa Jepang tingkat menengah.
+                                            Tidak harus. Semua peserta akan mulai dari dasar (N5), dan akan dibimbing hingga
+                                            bisa memahami bahasa Jepang tingkat menengah.
                                         </div>
                                     </div>
                                 </div>
@@ -855,13 +890,14 @@ SMA/SMK/Sederajat/Paket C</li>
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseFour"
                                             aria-expanded="false" aria-controls="collapseFour">
-                                          Berapa lama durasi pelatihannya?
+                                            Berapa lama durasi pelatihannya?
                                         </button>
                                     </h2>
                                     <div id="collapseFour" class="accordion-collapse collapse"
                                         aria-labelledby="headingFour" data-bs-parent="#accordionFAQ">
                                         <div class="accordion-body">
-                                           Lama pelatihan biasanya antara 6 bulan hingga 1 tahun, tergantung pada program yang diambil dan kesiapan peserta.
+                                            Lama pelatihan biasanya antara 6 bulan hingga 1 tahun, tergantung pada program
+                                            yang diambil dan kesiapan peserta.
                                         </div>
                                     </div>
                                 </div>
@@ -870,13 +906,14 @@ SMA/SMK/Sederajat/Paket C</li>
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseFive"
                                             aria-expanded="false" aria-controls="collapseFive">
-                                           Apakah tersedia program cicilan atau bantuan biaya?
+                                            Apakah tersedia program cicilan atau bantuan biaya?
                                         </button>
                                     </h2>
                                     <div id="collapseFive" class="accordion-collapse collapse"
                                         aria-labelledby="headingFive" data-bs-parent="#accordionFAQ">
                                         <div class="accordion-body">
-                                           Untuk beberapa program, kami menyediakan opsi pembayaran bertahap (cicilan). Silakan konsultasikan langsung dengan admin kami.
+                                            Untuk beberapa program, kami menyediakan opsi pembayaran bertahap (cicilan).
+                                            Silakan konsultasikan langsung dengan admin kami.
                                         </div>
                                     </div>
                                 </div>
