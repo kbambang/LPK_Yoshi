@@ -159,7 +159,7 @@
                                         href="https://youtu.be/OKIwI3Kcv-M?si=9pmTD16LyQwom4hs" data-gallery="video"> <img
                                             src="{{ asset('images/play.png') }}" alt="Play"
                                             style="width: 50px; height: 50px;" /></i>
-                                        <h1 style="color: white; margin-left: 10px">Play Video</h1>
+                                        <h1 style="color: white; margin-left: 10px; font-size: 20px;">Play Video</h1>
                                     </a>
                                 </div>
                             </div>

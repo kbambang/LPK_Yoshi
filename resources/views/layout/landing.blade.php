@@ -18,13 +18,14 @@ License: https://freebootstrap.net/license
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet">
     <!-- End Google Font-->
     <script src="{{ asset('nova/assets/vendors/bootstrap/bootstrap.bundle.min.js') }}"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    
+
 
     <!-- Swiper JS & CSS -->
-<link href="{{ asset('nova/assets/vendors/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
-<script src="{{ asset('nova/assets/vendors/swiper/swiper-bundle.min.js') }}"></script>
+    <link href="{{ asset('nova/assets/vendors/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+    <script src="{{ asset('nova/assets/vendors/swiper/swiper-bundle.min.js') }}"></script>
 
 
 
@@ -204,23 +205,27 @@ License: https://freebootstrap.net/license
         </header>
 
 
-          @yield('content')
+        @yield('content')
 
 
-           <footer class="footer pt-5 pb-5" style="background-color: #00255c">
-        <div class="container">
+        <footer class="footer pt-5 pb-4" style="background-color: #00255c">
+            <div class="container">
 
-            <div class="row justify-content-between mb-5 g-xl-5">
-                <div class="col-md-4 mb-5 mb-lg-0 d-flex">
-                <img src="{{ asset('images/logoysm.png') }}" alt="" style="width: 200px; height: 200px">
+                <div class="row justify-content-between mb-5 g-xl-5">
+                    <div class="col-md-6 mb-5 mb-lg-0 d-flex">
+                        <img src="{{ asset('images/logoysm.png') }}" alt=""
+                            style="width: 150px; height: 150px">
 
-                    {{-- <p class="mb-4 ">Utilize our tools to develop your concepts and bring your vision to life.
-                        Once complete, effortlessly share your creations.</p> --}}
-                </div>
-                <div class="col-md-7">
-                    <div class="row g-2">
-                        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-                            {{-- <h3 class="mb-3">Company</h3>
+                        <p class="mb-4 " style="margin-left: 10px; color: white;">LPK Yoshi Sakatana Mandiri adalah
+                            lembaga pelatihan kerja yang berkomitmen mempersiapkan generasi unggul untuk bekerja dan
+                            berkarya di Jepang melalui pelatihan bahasa, budaya, dan etika kerja yang berkualitas.
+
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row g-2">
+                            <div class="col-md-4 col-lg-2 mb-4 mb-lg-0">
+                                {{-- <h3 class="mb-3">Company</h3>
                             <ul class="list-unstyled">
                                 <li><a href="page-about.html">Leadership</a></li>
                                 <li><a href="page-careers.html">Careers <span class="badge ms-1">we're
@@ -230,45 +235,51 @@ License: https://freebootstrap.net/license
                                 <li><a href="page-privacy-policy.html">Privacy Policy</a></li>
                                 <li><a href="page-404.html">404 page</a></li>
                             </ul> --}}
-                        </div>
-                        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-    <h3 class="mb-3" style="color: rgb(155, 155, 155)">Sosial Media</h3>
-    <ul class="list-unstyled">
-        <li><a href="page-signup.html"><i class="fab fa-instagram me-2"></i>Instagram</a></li>
-        <li><a href="page-portfolio-masonry.html"><i class="fab fa-tiktok me-2"></i>Tiktok</a></li>
-        <li><a href="page-signin.html"><i class="fab fa-facebook-f me-2"></i>Facebook</a></li>
-        <li><a href="page-forgot-password.html"><i class="fab fa-twitter me-2"></i>Twitter</a></li>
-        <li><a href="page-coming-soon.html"><i class="fab fa-youtube me-2"></i>Youtube</a></li>
-    </ul>
-</div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+                                <h3 class="mb-3" style="color: rgb(255, 255, 255)">Sosial Media</h3>
+                                <ul class="list-unstyled" >
+                                    <li><a href="https://www.instagram.com/lpk_yoshisakatana?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" style="color: white"><i class="fab fa-instagram me-2"></i>Instagram</a>
+                                    </li>
+                                    <li><a href="https://www.tiktok.com/@lpk_yoshisakatanamandiri?is_from_webapp=1&sender_device=pc" style="color: white"><i
+                                                class="fab fa-tiktok me-2"></i>Tiktok</a></li>
+                                    <li><a href="page-signin.html" style="color: white"><i class="fab fa-facebook-f me-2"></i>Facebook</a>
+                                    </li>
+                                    <li><a href="page-forgot-password.html" style="color: white"><i
+                                                class="fab fa-twitter me-2"></i>Twitter</a></li>
+                                    <li><a href="https://www.youtube.com/channel/UC_4Uw_33YavH8SbRw9hyrRQ" style="color: white"><i class="fab fa-youtube me-2"></i>Youtube</a>
+                                    </li>
+                                </ul>
+                            </div>
 
-                        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 quick-contact" >
-                            <h3 class="mb-3" style="color: rgb(155, 155, 155)">Kontak</h3>
-                            <p class="d-flex mb-3"><i class="bi bi-geo-alt-fill me-3"></i><span>Jl.Raya Simpang Panjalu DsnSriwinangun DesPanjalu RT52RW23 Panjalu Ciamis</span></p><a
-                                class="d-flex mb-3" href="mailto:info@mydomain.com"><i
-                                    class="bi bi-envelope-fill me-3"></i><span>yoshisakatanamandiri@gmail.com</span></a><a
-                                class="d-flex mb-3" href="tel://+123456789900"><i
-                                    class="bi bi-telephone-fill me-3"></i><span>+62 822-1623-2156</span></a><a
-                                class="d-flex mb-3" href="https://freebootstrap.net"><i
-                                    class="bi bi-globe me-3"></i><span>yoshisakatanamandiri.com</span></a>
+                            <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 quick-contact" >
+                                <h3 class="mb-3" style="color: rgb(255, 255, 255)">Kontak</h3>
+                                <p class="d-flex mb-3" style="color: white"><i class="bi bi-geo-alt-fill me-3" style="color: white"></i><span>Jl.Raya Simpang
+                                        Panjalu DsnSriwinangun DesPanjalu RT52RW23 Panjalu Ciamis</span></p><a
+                                    class="d-flex mb-3" href="mailto:info@mydomain.com" style="color: white"><i
+                                        class="bi bi-envelope-fill me-3" style="color: white"></i><span>yoshisakatanamandiri@gmail.com</span></a><a
+                                    class="d-flex mb-3" href="tel://+123456789900"><i
+                                        class="bi bi-telephone-fill me-3" style="color: white"></i><span style="color: white">+62 822-1623-2156</span></a><a
+                                    class="d-flex mb-3" href="https://freebootstrap.net" style="color: white"><i
+                                        class="bi bi-globe me-3" style="color: white"></i><span>yoshisakatanamandiri.com</span></a>
+                            </div>
                         </div>
                     </div>
+                </div></div><hr style="color: white">
+                <div class="row credits pt-3 justify-content-center">
+                    <div class="col-12 text-center" style="color: white">
+                        &copy;
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script>, Yoshi Sakatana Mandiri
+                    </div>
                 </div>
+
             </div>
-           <div class="row credits pt-3 justify-content-center">
-    <div class="col-12 text-center">
-        &copy;
-        <script>
-            document.write(new Date().getFullYear());
-        </script>, Yoshi Sakatana Mandiri
-    </div>
-</div>
+        </footer>
+        <!-- End Footer-->
 
-        </div>
-    </footer>
-    <!-- End Footer-->
-
-    </main>
+        </main>
     </div>
 
     <!-- ======= Back to Top =======-->
