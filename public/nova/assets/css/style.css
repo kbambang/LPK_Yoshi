@@ -174,7 +174,16 @@ h6 {
 .play-button a {
     text-decoration: none;
 }
+.lainnya {
+  width: 150px;
+   padding: 12px 20px;
+  background-color: #00265C;
+  color: var(--bs-white);
+  border: 1px solid transparent;
+  border-radius: 7px;
+  font-weight: 600;
 
+}
 .btn {
   padding: 12px 20px;
   background-color: #00265C;

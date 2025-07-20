@@ -10,7 +10,7 @@ License: https://freebootstrap.net/license
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Nova Free Bootstrap Template for Agency &mdash; by FreeBootstrap.net </title>
+    <title> Yoshi Sakatana Mandiri </title>
 
     <!-- ======= Google Font =======-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,6 +18,8 @@ License: https://freebootstrap.net/license
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet">
     <!-- End Google Font-->
     <script src="{{ asset('nova/assets/vendors/bootstrap/bootstrap.bundle.min.js') }}"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     
 
     <!-- Swiper JS & CSS -->
@@ -210,15 +212,15 @@ License: https://freebootstrap.net/license
 
             <div class="row justify-content-between mb-5 g-xl-5">
                 <div class="col-md-4 mb-5 mb-lg-0 d-flex">
-                <img src="{{ asset('images/logoysm.png') }}" alt="" style="width: 100px; height: 100px">
+                <img src="{{ asset('images/logoysm.png') }}" alt="" style="width: 200px; height: 200px">
 
-                    <p class="mb-4 ">Utilize our tools to develop your concepts and bring your vision to life.
-                        Once complete, effortlessly share your creations.</p>
+                    {{-- <p class="mb-4 ">Utilize our tools to develop your concepts and bring your vision to life.
+                        Once complete, effortlessly share your creations.</p> --}}
                 </div>
                 <div class="col-md-7">
                     <div class="row g-2">
                         <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-                            <h3 class="mb-3">Company</h3>
+                            {{-- <h3 class="mb-3">Company</h3>
                             <ul class="list-unstyled">
                                 <li><a href="page-about.html">Leadership</a></li>
                                 <li><a href="page-careers.html">Careers <span class="badge ms-1">we're
@@ -227,41 +229,41 @@ License: https://freebootstrap.net/license
                                 <li><a href="page-terms-conditions.html">Terms &amp; Conditions</a></li>
                                 <li><a href="page-privacy-policy.html">Privacy Policy</a></li>
                                 <li><a href="page-404.html">404 page</a></li>
-                            </ul>
+                            </ul> --}}
                         </div>
                         <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-                            <h3 class="mb-3">Accounts</h3>
-                            <ul class="list-unstyled">
-                                <li><a href="page-signup.html">Register</a></li>
-                                <li><a href="page-signin.html">Sign in</a></li>
-                                <li><a href="page-forgot-password.html">Fogot Password</a></li>
-                                <li><a href="page-coming-soon.html">Coming soon</a></li>
-                                <li><a href="page-portfolio-masonry.html">Portfolio Masonry</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 quick-contact">
-                            <h3 class="mb-3">Contact</h3>
-                            <p class="d-flex mb-3"><i class="bi bi-geo-alt-fill me-3"></i><span>123 Main
-                                    Street Apt 4B Springfield, <br> IL 62701 United States</span></p><a
+    <h3 class="mb-3" style="color: rgb(155, 155, 155)">Sosial Media</h3>
+    <ul class="list-unstyled">
+        <li><a href="page-signup.html"><i class="fab fa-instagram me-2"></i>Instagram</a></li>
+        <li><a href="page-portfolio-masonry.html"><i class="fab fa-tiktok me-2"></i>Tiktok</a></li>
+        <li><a href="page-signin.html"><i class="fab fa-facebook-f me-2"></i>Facebook</a></li>
+        <li><a href="page-forgot-password.html"><i class="fab fa-twitter me-2"></i>Twitter</a></li>
+        <li><a href="page-coming-soon.html"><i class="fab fa-youtube me-2"></i>Youtube</a></li>
+    </ul>
+</div>
+
+                        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 quick-contact" >
+                            <h3 class="mb-3" style="color: rgb(155, 155, 155)">Kontak</h3>
+                            <p class="d-flex mb-3"><i class="bi bi-geo-alt-fill me-3"></i><span>Jl.Raya Simpang Panjalu DsnSriwinangun DesPanjalu RT52RW23 Panjalu Ciamis</span></p><a
                                 class="d-flex mb-3" href="mailto:info@mydomain.com"><i
-                                    class="bi bi-envelope-fill me-3"></i><span>info@mydomain.com</span></a><a
+                                    class="bi bi-envelope-fill me-3"></i><span>yoshisakatanamandiri@gmail.com</span></a><a
                                 class="d-flex mb-3" href="tel://+123456789900"><i
-                                    class="bi bi-telephone-fill me-3"></i><span>+1 (234) 5678 9900</span></a><a
+                                    class="bi bi-telephone-fill me-3"></i><span>+62 822-1623-2156</span></a><a
                                 class="d-flex mb-3" href="https://freebootstrap.net"><i
-                                    class="bi bi-globe me-3"></i><span>FreeBootstrap.net</span></a>
+                                    class="bi bi-globe me-3"></i><span>yoshisakatanamandiri.com</span></a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row credits pt-3 text-center">
-                <div class="col-xl-8 text-center text-xl-start mb-3 mb-xl-0">
-                    &copy;
-                    <script>
-                        document.write(new Date().getFullYear());
-                    </script>, Yoshi Sakatana Mandiri
-                </div>
-              
-            </div>
+           <div class="row credits pt-3 justify-content-center">
+    <div class="col-12 text-center">
+        &copy;
+        <script>
+            document.write(new Date().getFullYear());
+        </script>, Yoshi Sakatana Mandiri
+    </div>
+</div>
+
         </div>
     </footer>
     <!-- End Footer-->

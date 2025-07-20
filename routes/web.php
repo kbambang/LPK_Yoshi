@@ -29,4 +29,11 @@ Route::get('/im', [LandingController::class, 'showIM'])->name('program.im');
 Route::get('/magang', [LandingController::class, 'showMagang'])->name('program.magang');
 Route::get('/tg', [LandingController::class, 'showTG'])->name('program.tg');
 
+//informasi berita,selamat,pengumuman,gallery
+Route::get('/berita', [LandingController::class, 'showBerita'])->name('informasi.berita');
+Route::get('/selamat', [LandingController::class, 'showSelamat'])->name('informasi.selamat');
+Route::get('/pengumuman', [LandingController::class, 'showPengumuman'])->name('informasi.pengumuman');
+Route::get('/gallery', [LandingController::class, 'showGallery'])->name('informasi.gallery');
+
+
 

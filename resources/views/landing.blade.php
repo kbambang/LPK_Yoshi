@@ -486,14 +486,14 @@
                             <div class="testimonial rounded-4 p-4">
                                 <div class="testimonial-author d-flex gap-3 align-items-center">
                                     <div class="author-img"><img class="rounded-circle img-fluid"
-                                            src="{{ asset('nova/assets/images/person-sq-2-min.jpg') }}" alt="">
+                                            src="{{ asset('images/pp.jpg') }}" alt="">
                                     </div>
                                     <div class="lh-base">
-                                        <strong class="d-block">John Davis</strong><span>Small Business Owner</span>
+                                        <strong class="d-block">Biki Awarudin</strong><span>Juragan Jangkrik</span>
                                     </div>
                                 </div>
                                 <blockquote class="mb-3">
-                                    &ldquo; Platform ini benar-benar mengubah cara saya mengatur keuangan bisnis. &rdquo;
+                                    &ldquo; Lpk yoshi sakatana mandiri adalah lpk yang bagus, bersih, dan disiplin. soshite selama saya berada disini saya menjadi lebih baik dari sebelumnya, orang orang nya ramah serta baik hati.&rdquo;
                                 </blockquote>
                             </div>
                         </div>
@@ -501,14 +501,14 @@
                             <div class="testimonial rounded-4 p-4">
                                 <div class="testimonial-author d-flex gap-3 align-items-center">
                                     <div class="author-img"><img class="rounded-circle img-fluid"
-                                            src="{{ asset('nova/assets/images/person-sq-2-min.jpg') }}" alt="">
+                                            src="{{ asset('images/pp.jpg') }}" alt="">
                                     </div>
                                     <div class="lh-base">
-                                        <strong class="d-block">John Davis</strong><span>Small Business Owner</span>
+                                        <strong class="d-block">Dickri Bambang Kurniawan</strong><span>CEO Google</span>
                                     </div>
                                 </div>
                                 <blockquote class="mb-3">
-                                    &ldquo; Platform ini benar-benar mengubah cara saya mengatur keuangan bisnis. &rdquo;
+                                    &ldquo;Lpk yoshi sakatana mandiri adalah lpk yang yang bagus, disini kita tidak hanya diajar kan tentang bahasanya saja tapi kita juga di ajarkan bagaimana budaya jepang yang baik dan benar. &rdquo;
                                 </blockquote>
                             </div>
                         </div>
@@ -516,14 +516,14 @@
                             <div class="testimonial rounded-4 p-4">
                                 <div class="testimonial-author d-flex gap-3 align-items-center">
                                     <div class="author-img"><img class="rounded-circle img-fluid"
-                                            src="{{ asset('nova/assets/images/person-sq-2-min.jpg') }}" alt="">
+                                            src="{{ asset('images/pp.jpg') }}" alt="">
                                     </div>
                                     <div class="lh-base">
-                                        <strong class="d-block">John Davis</strong><span>Small Business Owner</span>
+                                        <strong class="d-block">Hikais Dika Darma Putra</strong><span>CEO Microsoft</span>
                                     </div>
                                 </div>
                                 <blockquote class="mb-3">
-                                    &ldquo; Platform ini benar-benar mengubah cara saya mengatur keuangan bisnis. &rdquo;
+                                    &ldquo; Belajar bahasa Jepang di LPK Yoshi sangat menyenangkan. Metodenya mudah dipahami, dan instruktur selalu sabar menjelaskan. Setelah lulus, saya lolos JLPT N4 dan siap melanjutkan karir di Jepang.&rdquo;
                                 </blockquote>
                             </div>
                         </div>
@@ -531,14 +531,14 @@
                             <div class="testimonial rounded-4 p-4">
                                 <div class="testimonial-author d-flex gap-3 align-items-center">
                                     <div class="author-img"><img class="rounded-circle img-fluid"
-                                            src="{{ asset('nova/assets/images/person-sq-2-min.jpg') }}" alt="">
+                                            src="{{ asset('images/pp.jpg') }}" alt="">
                                     </div>
                                     <div class="lh-base">
-                                        <strong class="d-block">John Davis</strong><span>Small Business Owner</span>
+                                        <strong class="d-block">Febri Yanto</strong><span>Owner seblak jeletot</span>
                                     </div>
                                 </div>
                                 <blockquote class="mb-3">
-                                    &ldquo; Platform ini benar-benar mengubah cara saya mengatur keuangan bisnis. &rdquo;
+                                    &ldquo; Senang rasanya bisa belajar bahasa jepang di lpk ini, dari yang tadinya tidak bisa sama sekali dan sekarang sudah bisa bekerja di jepang dan mempunyai usaha seblak jeletot &rdquo;
                                 </blockquote>
                             </div>
                         </div>
@@ -546,14 +546,14 @@
                             <div class="testimonial rounded-4 p-4">
                                 <div class="testimonial-author d-flex gap-3 align-items-center">
                                     <div class="author-img"><img class="rounded-circle img-fluid"
-                                            src="{{ asset('nova/assets/images/person-sq-2-min.jpg') }}" alt="">
+                                            src="{{ asset('images/pp.jpg') }}" alt="">
                                     </div>
                                     <div class="lh-base">
-                                        <strong class="d-block">John Davis</strong><span>Small Business Owner</span>
+                                        <strong class="d-block">Galuh </strong><span>owner barbershope rusdi</span>
                                     </div>
                                 </div>
                                 <blockquote class="mb-3">
-                                    &ldquo; Platform ini benar-benar mengubah cara saya mengatur keuangan bisnis. &rdquo;
+                                    &ldquo; Mantap &rdquo;
                                 </blockquote>
                             </div>
                         </div>
@@ -561,14 +561,14 @@
                             <div class="testimonial rounded-4 p-4">
                                 <div class="testimonial-author d-flex gap-3 align-items-center">
                                     <div class="author-img"><img class="rounded-circle img-fluid"
-                                            src="{{ asset('nova/assets/images/person-sq-2-min.jpg') }}" alt="">
+                                            src="{{ asset('images/pp.jpg') }}" alt="">
                                     </div>
                                     <div class="lh-base">
-                                        <strong class="d-block">John Davis</strong><span>Small Business Owner</span>
+                                        <strong class="d-block">Daus</strong><span>Manager Suzuki</span>
                                     </div>
                                 </div>
                                 <blockquote class="mb-3">
-                                    &ldquo; Platform ini benar-benar mengubah cara saya mengatur keuangan bisnis. &rdquo;
+                                    &ldquo; Lpk yoshi sakatana mandiri adalah lpk yang terbaik menurut saya, disini saya sangat mudah dalam belajar bahasa jepang dari yang tadinya tidak bisa sama sekali sampai bisa mendapatkan n2 &rdquo;
                                 </blockquote>
                             </div>
                         </div>
@@ -625,7 +625,7 @@
                                     </div>
                                 </div>
                             </div><br>
-                            <h4 class="text-center">Selengkapnya ></h4>
+                            <h4 class="text-center"><a href="{{ route('informasi.berita') }}" style=" text-decoration: none;">Selengkapnya ></a></h4>
                         </div>
                     </div>
 
@@ -643,8 +643,8 @@
 
                                         <img src="{{ asset('images/omo.png') }}" alt=""
                                             style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
-                                    </div>
-                                    <h4 class="text-center mt-3">Selengkapnya ></h4>
+                                    </div><br>
+                            <h4 class="text-center"><a href="{{ route('informasi.selamat') }}" style=" text-decoration: none;">Selengkapnya ></a></h4>
                                 </div>
                             </div>
 
@@ -652,13 +652,21 @@
                             <div class="col-12 col-md-6" data-aos="fade-up" data-aos-delay="100">
                                 <div><span class="subtitle text-uppercase mb-4">Pengumuman</span></div>
                                 <div class="testimonial rounded-4 p-4">
-                                    @for ($i = 0; $i < 3; $i++)
+                                   
                                         <div class="rounded-4 overflow-hidden mb-3" style="height: 100px;">
                                             <img src="{{ asset('images/qqq.png') }}" alt=""
                                                 style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
                                         </div>
-                                    @endfor
-                                    <h4 class="text-center mt-3">Selengkapnya ></h4>
+                                        <div class="rounded-4 overflow-hidden mb-3" style="height: 100px;">
+                                            <img src="{{ asset('images/qqq (2).png') }}" alt=""
+                                                style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                                        </div>
+                                        <div class="rounded-4 overflow-hidden mb-3" style="height: 100px;">
+                                            <img src="{{ asset('images/picture(14).png') }}" alt=""
+                                                style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                                        </div>
+                                  
+                            <h4 class="text-center"><a href="{{ route('informasi.pengumuman') }}" style=" text-decoration: none;">Selengkapnya ></a></h4>
                                 </div>
                             </div>
 
@@ -717,7 +725,7 @@
                             <!-- Foto 1 -->
                             <div class="col-md-4">
                                 <div class="overflow-hidden rounded-4" style="height: 200px;">
-                                    <img src="{{ asset('images/tentang.png') }}" alt="Gallery 1"
+                                    <img src="{{ asset('images/picture(1).png') }}" alt="Gallery 1"
                                         style="width: 100%; height: 100%; object-fit: cover;">
                                 </div>
                             </div>
@@ -725,7 +733,7 @@
                             <!-- Foto 2 -->
                             <div class="col-md-4">
                                 <div class="overflow-hidden rounded-4" style="height: 200px;">
-                                    <img src="{{ asset('images/tentang.png') }}" alt="Gallery 2"
+                                    <img src="{{ asset('images/picture(5).png') }}" alt="Gallery 2"
                                         style="width: 100%; height: 100%; object-fit: cover;">
                                 </div>
                             </div>
@@ -733,7 +741,7 @@
                             <!-- Foto 3 -->
                             <div class="col-md-4">
                                 <div class="overflow-hidden rounded-4" style="height: 200px;">
-                                    <img src="{{ asset('images/tentang.png') }}" alt="Gallery 3"
+                                    <img src="{{ asset('images/picture(11).png') }}" alt="Gallery 3"
                                         style="width: 100%; height: 100%; object-fit: cover;">
                                 </div>
                             </div>
@@ -741,27 +749,27 @@
                             <!-- Baris 2 bisa ditambah lagi -->
                             <div class="col-md-4">
                                 <div class="overflow-hidden rounded-4" style="height: 200px;">
-                                    <img src="{{ asset('images/tentang.png') }}" alt="Gallery 4"
+                                    <img src="{{ asset('images/picture(10).png') }}" alt="Gallery 4"
                                         style="width: 100%; height: 100%; object-fit: cover;">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="overflow-hidden rounded-4" style="height: 200px;">
-                                    <img src="{{ asset('images/tentang.png') }}" alt="Gallery 4"
+                                    <img src="{{ asset('images/picture(8).png') }}" alt="Gallery 4"
                                         style="width: 100%; height: 100%; object-fit: cover;">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="overflow-hidden rounded-4" style="height: 200px;">
-                                    <img src="{{ asset('images/tentang.png') }}" alt="Gallery 4"
+                                    <img src="{{ asset('images/picture(13).png') }}" alt="Gallery 4"
                                         style="width: 100%; height: 100%; object-fit: cover;">
                                 </div>
                             </div>
 
                             <!-- Tambah lagi sesuka kamu -->
 
-                        </div>
-                        <h4 class="text-center mt-3">Selengkapnya ></h4>
+                        </div><br>
+                            <h4 class="text-center"><a href="{{ route('informasi.gallery') }}" style=" text-decoration: none;">Selengkapnya ></a></h4>
                     </div>
                 </div>
             </div>
@@ -774,10 +782,10 @@
                 <div class="row mb-4">
                     <div class="col-md-6 col-lg-10 mx-auto text-center"><span class="subtitle text-uppercase mb-3"
                             data-aos="fade-up" data-aos-delay="0">FAQ</span>
-                        <h2 class="h2 fw-bold mb-3" data-aos="fade-up" data-aos-delay="0">Frequently Asked
-                            Questions</h2>
-                        <p data-aos="fade-up" data-aos-delay="100">Utilize our tools to develop your concepts and
-                            bring your vision to life. Once complete, effortlessly share your creations.</p>
+                        <h2 class="h2 fw-bold mb-3" data-aos="fade-up" data-aos-delay="0">Ingin Daftar Tapi Masih Bingung? Cek FAQ Berikut</h2>
+                        <p data-aos="fade-up" data-aos-delay="100">Temukan jawaban dari pertanyaan umum seputar pelatihan, proses seleksi, dan keberangkatan ke Jepang melalui LPK Yoshi Sakatana Mandiri.
+
+</p>
                     </div>
                 </div>
                 <div class="row">
@@ -789,13 +797,25 @@
                                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                             data-bs-target="#collapseOne" aria-expanded="true"
                                             aria-controls="collapseOne">
-                                            What services does your web agency offer?
+                                         Apa aja  persyaratan mengikuti program pelatihan?
                                         </button>
                                     </h2>
                                     <div id="collapseOne" class="accordion-collapse collapse show"
                                         aria-labelledby="headingOne" data-bs-parent="#accordionFAQ">
                                         <div class="accordion-body">
-                                            Our web agency offers a comprehensive range of services...
+                                           <ul>
+                                            <li> Laki-laki / Perempuan
+Usia 18 Tahun - 35 Tahun</li>
+<li>Tinggi Badan
+Putri Minimal 150 cm
+Putra Minimal 160 Cm</li>
+<li> Sehat Jasmani dan Rohani</li>
+<li> Tidak bertato, bertindik
+dan tidak buta warna</li>
+<li> Pendidikan Minimal
+SMA/SMK/Sederajat/Paket C</li>
+<li>Tidak Buta Warna</li>
+                                           </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -805,14 +825,14 @@
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
                                             aria-controls="collapseTwo">
-                                            How much does it cost to build a website?
+                                          Apakah LPK Yoshi Sakatana Mandiri sudah terdaftar secara resmi?
+
                                         </button>
                                     </h2>
                                     <div id="collapseTwo" class="accordion-collapse collapse"
                                         aria-labelledby="headingTwo" data-bs-parent="#accordionFAQ">
                                         <div class="accordion-body">
-                                            The cost of building a website can vary widely...
-                                        </div>
+ Ya, LPK Yoshi Sakatana Mandiri telah terdaftar resmi dan legal, memiliki izin operasional dan bekerja sama dengan berbagai lembaga penyalur tenaga kerja ke Jepang.                                        </div>
                                     </div>
                                 </div>
                                 <div class="accordion-item">
@@ -820,13 +840,13 @@
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseThree"
                                             aria-expanded="false" aria-controls="collapseThree">
-                                            How much does it cost to build a website?
+                                           Apakah harus bisa bahasa Jepang dulu sebelum mendaftar?
                                         </button>
                                     </h2>
                                     <div id="collapseThree" class="accordion-collapse collapse"
                                         aria-labelledby="headingThree" data-bs-parent="#accordionFAQ">
                                         <div class="accordion-body">
-                                            The cost of building a website can vary widely...
+                                           Tidak harus. Semua peserta akan mulai dari dasar (N5), dan akan dibimbing hingga bisa memahami bahasa Jepang tingkat menengah.
                                         </div>
                                     </div>
                                 </div>
@@ -835,13 +855,13 @@
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseFour"
                                             aria-expanded="false" aria-controls="collapseFour">
-                                            How much does it cost to build a website?
+                                          Berapa lama durasi pelatihannya?
                                         </button>
                                     </h2>
                                     <div id="collapseFour" class="accordion-collapse collapse"
                                         aria-labelledby="headingFour" data-bs-parent="#accordionFAQ">
                                         <div class="accordion-body">
-                                            The cost of building a website can vary widely...
+                                           Lama pelatihan biasanya antara 6 bulan hingga 1 tahun, tergantung pada program yang diambil dan kesiapan peserta.
                                         </div>
                                     </div>
                                 </div>
@@ -850,13 +870,13 @@
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#collapseFive"
                                             aria-expanded="false" aria-controls="collapseFive">
-                                            How much does it cost to build a website?
+                                           Apakah tersedia program cicilan atau bantuan biaya?
                                         </button>
                                     </h2>
                                     <div id="collapseFive" class="accordion-collapse collapse"
                                         aria-labelledby="headingFive" data-bs-parent="#accordionFAQ">
                                         <div class="accordion-body">
-                                            The cost of building a website can vary widely...
+                                           Untuk beberapa program, kami menyediakan opsi pembayaran bertahap (cicilan). Silakan konsultasikan langsung dengan admin kami.
                                         </div>
                                     </div>
                                 </div>
