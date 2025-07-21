@@ -126,53 +126,6 @@ License: https://freebootstrap.net/license
                             </li>
                             <li class="nav-item"><a class="nav-link scroll-link" href="#pricing">Program</a></li>
                             <li class="nav-item"><a class="nav-link scroll-link" href="{{ route('FormDaftar.form') }}">Pendaftaran</a></li>
-                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#"
-                                    data-bs-toggle="dropdown" aria-expanded="false">Dropdown <i
-                                        class="bi bi-chevron-down"></i></a>
-
-                                <ul class="dropdown-menu">
-                                    <li><a class="nav-link scroll-link dropdown-item" href="#">Multipages</a></li>
-                                    <li><a class="nav-link scroll-link dropdown-item" href="#services">Services</a></li>
-                                    <li><a class="nav-link scroll-link dropdown-item" href="#pricing">Pricing</a></li>
-                                    <li class="nav-item dropstart"><a class="nav-link dropdown-toggle" href="#"
-                                            data-bs-toggle="dropdown" aria-expanded="false">Dropstart <i
-                                                class="bi bi-chevron-right"></i></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="nav-link scroll-link dropdown-item"
-                                                    href="#services">Services</a></li>
-                                            <li><a class="nav-link scroll-link dropdown-item"
-                                                    href="#pricing">Pricing</a></li>
-                                            <li class="nav-item dropstart"><a class="nav-link dropdown-toggle"
-                                                    href="#" data-bs-toggle="dropdown"
-                                                    aria-expanded="false">Dropstart <i
-                                                        class="bi bi-chevron-right"></i></a>
-                                                <ul class="dropdown-menu">
-                                                    <li><a class="nav-link scroll-link dropdown-item"
-                                                            href="#services">Services</a></li>
-                                                    <li><a class="nav-link scroll-link dropdown-item"
-                                                            href="#pricing">Pricing</a></li>
-                                                    <li><a class="nav-link scroll-link dropdown-item"
-                                                            href="#">Something else here</a></li>
-                                                    <li class="nav-item dropend"><a class="nav-link dropdown-toggle"
-                                                            href="#" data-bs-toggle="dropdown"
-                                                            aria-expanded="false">Dropend <i
-                                                                class="bi bi-chevron-right"></i></a>
-                                                        <ul class="dropdown-menu">
-                                                            <li><a class="nav-link scroll-link dropdown-item"
-                                                                    href="#services">Services</a></li>
-                                                            <li><a class="nav-link scroll-link dropdown-item"
-                                                                    href="#pricing">Pricing</a></li>
-                                                            <li><a class="nav-link scroll-link dropdown-item"
-                                                                    href="#">Something else here</a></li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                </ul>
-
-                            </li>
                             <li class="nav-item"><a class="nav-link scroll-link" href="#faq">Kontak</a></li>
                         </ul>
 
