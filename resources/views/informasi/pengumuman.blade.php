@@ -11,17 +11,13 @@
                   <div class="col-lg-15 mb-5">
 
 
-                      <span class="hero-subtitle text-uppercase" data-aos="fade-up" data-aos-delay="0">Selamat datang</span>
+                      <span class="hero-subtitle text-uppercase" data-aos="fade-up" data-aos-delay="0">Pengumuman</span>
                       <h3 class="hero-titlee mb-3" data-aos="fade-up">
                           <h2 class="mb-3" data-aos="fade-up" data-aos-delay="100">
-                              Form Pendafataran
+                              Pengumuman
                           </h2>
                           <p data-aos="fade-up" data-aos-delay="200">
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                              been the
-                              industry's standard dummy text ever since the 1500s, </p>
-
-
+                              Berikut adalah pengumuman terbaru</p>
                           <div class="row g-3">
                               <!-- Kartu Berita 1 -->
                               <div class="col-4" data-aos="fade-up" data-aos-delay="0">

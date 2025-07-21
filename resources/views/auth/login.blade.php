@@ -18,14 +18,13 @@ License: https://freebootstrap.net/license
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&amp;display=swap" rel="stylesheet">
     <!-- End Google Font-->
     <script src="{{ asset('nova/assets/vendors/bootstrap/bootstrap.bundle.min.js') }}"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 
     <!-- Swiper JS & CSS -->
-    <link href="{{ asset('nova/assets/vendors/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
-    <script src="{{ asset('nova/assets/vendors/swiper/swiper-bundle.min.js') }}"></script>
+<link href="{{ asset('nova/assets/vendors/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+<script src="{{ asset('nova/assets/vendors/swiper/swiper-bundle.min.js') }}"></script>
 
 
 
@@ -58,6 +57,7 @@ License: https://freebootstrap.net/license
 
     <!-- ======= Site Wrap =======-->
     <div class="site-wrap">
+<section class="hero__v10 section">
 
 
         <!-- ======= Header =======-->
@@ -124,8 +124,8 @@ License: https://freebootstrap.net/license
                             <li><a class="dropdown-item" href="{{ route('visi-misi') }}">Visi & Misi</a></li>
                             </ul>
                             </li>
-                            <li class="nav-item"><a class="nav-link scroll-link" href="#pricing">Program</a></li>
-                            <li class="nav-item"><a class="nav-link scroll-link" href="{{ route('FormDaftar.form') }}">Pendaftaran</a></li>
+                            <li class="nav-item"><a class="nav-link scroll-link" href="#how-it-works">Program</a></li>
+                            <li class="nav-item"><a class="nav-link scroll-link" href="#services">Pendaftaran</a></li>
                             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#"
                                     data-bs-toggle="dropdown" aria-expanded="false">Dropdown <i
                                         class="bi bi-chevron-down"></i></a>
@@ -173,7 +173,7 @@ License: https://freebootstrap.net/license
                                 </ul>
 
                             </li>
-                            <li class="nav-item"><a class="nav-link scroll-link" href="#faq">Kontak</a></li>
+                            <li class="nav-item"><a class="nav-link scroll-link" href="#contact">Contact</a></li>
                         </ul>
 
                     </div>
@@ -211,81 +211,91 @@ License: https://freebootstrap.net/license
         </header>
 
 
-        @yield('content')
 
 
-        <footer class="footer pt-5 pb-4" style="background-color: #00255c">
-            <div class="container">
 
-                <div class="row justify-content-between mb-5 g-xl-5">
-                    <div class="col-md-6 mb-5 mb-lg-0 d-flex">
-                        <img src="{{ asset('images/logoysm.png') }}" alt=""
-                            style="width: 150px; height: 150px">
 
-                        <p class="mb-4 " style="margin-left: 10px; color: white;">LPK Yoshi Sakatana Mandiri adalah
-                            lembaga pelatihan kerja yang berkomitmen mempersiapkan generasi unggul untuk bekerja dan
-                            berkarya di Jepang melalui pelatihan bahasa, budaya, dan etika kerja yang berkualitas.
 
-                        </p>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="row g-2">
-                            <div class="col-md-4 col-lg-2 mb-4 mb-lg-0">
-                                {{-- <h3 class="mb-3">Company</h3>
-                            <ul class="list-unstyled">
-                                <li><a href="page-about.html">Leadership</a></li>
-                                <li><a href="page-careers.html">Careers <span class="badge ms-1">we're
-                                            hiring</span></a></li>
-                                <li><a href="page-case-studies.html">Case Studies</a></li>
-                                <li><a href="page-terms-conditions.html">Terms &amp; Conditions</a></li>
-                                <li><a href="page-privacy-policy.html">Privacy Policy</a></li>
-                                <li><a href="page-404.html">404 page</a></li>
-                            </ul> --}}
-                            </div>
-                            <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
-                                <h3 class="mb-3" style="color: rgb(255, 255, 255)">Sosial Media</h3>
-                                <ul class="list-unstyled" >
-                                    <li><a href="https://www.instagram.com/lpk_yoshisakatana?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" style="color: white"><i class="fab fa-instagram me-2"></i>Instagram</a>
-                                    </li>
-                                    <li><a href="https://www.tiktok.com/@lpk_yoshisakatanamandiri?is_from_webapp=1&sender_device=pc" style="color: white"><i
-                                                class="fab fa-tiktok me-2"></i>Tiktok</a></li>
-                                    <li><a href="page-signin.html" style="color: white"><i class="fab fa-facebook-f me-2"></i>Facebook</a>
-                                    </li>
-                                    <li><a href="page-forgot-password.html" style="color: white"><i
-                                                class="fab fa-twitter me-2"></i>Twitter</a></li>
-                                    <li><a href="https://www.youtube.com/channel/UC_4Uw_33YavH8SbRw9hyrRQ" style="color: white"><i class="fab fa-youtube me-2"></i>Youtube</a>
-                                    </li>
-                                </ul>
-                            </div>
 
-                            <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 quick-contact" >
-                                <h3 class="mb-3" style="color: rgb(255, 255, 255)">Kontak</h3>
-                                <p class="d-flex mb-3" style="color: white"><i class="bi bi-geo-alt-fill me-3" style="color: white"></i><span>Jl.Raya Simpang
-                                        Panjalu DsnSriwinangun DesPanjalu RT52RW23 Panjalu Ciamis</span></p><a
-                                    class="d-flex mb-3" href="mailto:info@mydomain.com" style="color: white"><i
-                                        class="bi bi-envelope-fill me-3" style="color: white"></i><span>yoshisakatanamandiri@gmail.com</span></a><a
-                                    class="d-flex mb-3" href="tel://+123456789900"><i
-                                        class="bi bi-telephone-fill me-3" style="color: white"></i><span style="color: white">+62 822-1623-2156</span></a><a
-                                    class="d-flex mb-3" href="https://freebootstrap.net" style="color: white"><i
-                                        class="bi bi-globe me-3" style="color: white"></i><span>yoshisakatanamandiri.com</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div></div><hr style="color: white">
-                <div class="row credits pt-3 justify-content-center">
-                    <div class="col-12 text-center" style="color: white">
-                        &copy;
-                        <script>
-                            document.write(new Date().getFullYear());
-                        </script>, Yoshi Sakatana Mandiri
-                    </div>
+
+<section class="hero__v10">
+<div class="d-flex flex-wrap w-100" style="height: 50vh; font-family: 'Noto Sans JP', sans-serif;">
+    <!-- Bagian Form Login -->
+    <div class="col-lg-6 col-md-12 d-flex align-items-center justify-content-center" style="background-color: #00265C;">
+        <div class="w-100 px-4" style="max-width: 400px;">
+            <h3 class="text-white fw-bold text-center mb-2" style="letter-spacing: 1px;">ようこそ</h3>
+            <p class="text-white text-center mb-4" style="font-size: 14px;">Silakan masuk untuk mengakses sistem pelatihan dan pemagangan ke Jepang</p>
+
+            <form method="POST" action="{{ route('login') }}">
+                @csrf
+                <div class="mb-3">
+                    <label for="email" class="form-label text-white">Email</label>
+                    <input type="email" name="email" id="email" class="form-control input-putih" required>
                 </div>
 
-            </div>
-        </footer>
-        <!-- End Footer-->
+                <div class="mb-3">
+                    <label for="password" class="form-label text-white">Password</label>
+                    <input type="password" name="password" id="password" class="form-control input-putih" required>
+                </div>
 
-        </main>
+                <div class="form-check mb-3">
+                    <input type="checkbox" class="form-check-input" id="showPassword" onclick="togglePassword()">
+                    <label for="showPassword" class="form-check-label text-white">Tampilkan Password</label>
+                </div>
+
+                <button type="submit" class="btn w-100 fw-bold btn-login-japan">Masuk</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Bagian Gambar Jepang -->
+    <div class="col-lg-6 d-none d-lg-block p-0">
+        <img src="{{ asset('images/shine1.jpeg') }}" alt="Login Jepang" class="img-fluid w-100" style="height: 100vh; object-fit: cover;">
+    </div>
+
+</div>
+</section>
+
+<!-- Style -->
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+    html, body {
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .input-putih {
+        background-color: #ffffff !important;
+        color: #00265C !important;
+        border: 1px solid #ccc !important;
+        border-radius: 8px;
+        padding: 0.5rem 0.75rem;
+    }
+
+    .btn-login-japan {
+        background-color: #ffffff;
+        color: #00265C;
+        border: none;
+        border-radius: 8px;
+        padding: 0.6rem 1rem;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .btn-login-japan:hover {
+        background-color: #dbe4f3;
+        color: #00193f;
+    }
+</style>
+
+<script>
+    function togglePassword() {
+        const passField = document.getElementById("password");
+        passField.type = passField.type === "password" ? "text" : "password";
+    }
+</script>
+
+ </main>
     </div>
 
     <!-- ======= Back to Top =======-->
@@ -306,5 +316,6 @@ License: https://freebootstrap.net/license
 
     <!-- End JavaScripts-->
 </body>
+</section>
 
 </html>

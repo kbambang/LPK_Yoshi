@@ -1,8 +1,12 @@
 <?php
 
-use App\Http\Controllers\FormDaftarController;
-use App\Http\Controllers\LandingController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LandingController;
+use App\Http\Controllers\SejarahController;
+use App\Http\Controllers\VisiMisiController;
+use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\FormDaftarController;
+use App\Http\Controllers\InstrukturController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,10 +22,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('landing');
 });
- Route::get('/landing', [LandingController::class, 'index'])->name('Landing');
+    Route::get('/instruktur', [InstrukturController::class, 'index'])->name('instruktur');
+    Route::get('/instruktur/{id}', [InstrukturController::class, 'show'])->name('show');
+    Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
+    Route::get('/FormDaftar/form', [FormDaftarController::class, 'index'])->name('FormDaftar.form');
+    Route::get('/landing', [LandingController::class, 'index'])->name('Landing');
+    Route::get('/sejarah', [SejarahController::class, 'index'])->name('sejarah');
+    Route::get('/visi-misi', [VisiMisiController::class, 'index'])->name('visi-misi');
 
-//form pendaftaran
-Route::get('/FormDaftar/form', [FormDaftarController::class, 'index'])->name('FormDaftar.form');
 Route::post('/kirim-pendaftaran', [FormDaftarController::class, 'kirim'])->name('form.kirim');
 
 //program
