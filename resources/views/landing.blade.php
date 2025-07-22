@@ -4,6 +4,36 @@
 
 @section('content')
     <title>Yoshi Sakatana Mandiri</title>
+    <style>
+
+        .hero__v6 {
+    min-height: 100vh;
+    width: 100%;
+    background: url('{{ asset('images/shine1.jpg') }}') center center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding-top: 100px;
+}
+
+.hero__v6::before {
+    content: "";
+    position: absolute;
+    display: none;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.247); /* filter biru gelap */
+    z-index: 1;
+    margin-top: 70px;
+}
+
+.hero__v6 .container {
+    position: relative;
+    z-index: 2;
+}
+
+
+    </style>
     <!-- End Header-->
 
     <!-- ======= Main =======-->
@@ -16,7 +46,8 @@
                 <div class="row">
                     <div class="col-lg-8 mb-4 mb-lg-0">
                         <div class="row">
-                            <div class="col-lg-11"><span class="hero-subtitle text-uppercase" data-aos="fade-up"
+                            <div class="col-lg-11">
+                                <span class="hero-subtitle text-uppercase" data-aos="fade-up"
                                     data-aos-delay="0">Selamat datang</span>
                                 <h3 class="hero-titlee mb-3" data-aos="fade-up" data-aos-delay="100">Belajar
                                     Bahasa Jepang & Kerja di Jepang Bersama LPK </h3>
@@ -39,65 +70,52 @@
                                 {{-- <div class="logos mb-4" data-aos="fade-up" data-aos-delay="400"><span class="logos-title text-uppercase mb-4 d-block">Trusted by major companies worldwide</span>
                       <div class="logos-images d-flex gap-4 align-items-center"><img class="img-fluid js-img-to-inline-svg" src="assets/images/logo/actual-size/logo-air-bnb__black.svg" alt="Company 1" style="width: 110px;"><img class="img-fluid js-img-to-inline-svg" src="assets/images/logo/actual-size/logo-ibm__black.svg" alt="Company 2" style="width: 80px;"><img class="img-fluid js-img-to-inline-svg" src="assets/images/logo/actual-size/logo-google__black.svg" alt="Company 3" style="width: 110px;"></div>
                     </div> --}}
-
-                                <ul class="d-flex flex-row flex-wrap list-unstyled gap-3 features" data-aos="fade-up"
-                                    data-aos-delay="400">
-                                    <li class="d-flex align-items-center gap-2">
-                                        <span class="check-icon">
-                                            <i class="bi bi-check-lg"></i>
-                                        </span>
-                                        <span class="text">Resmi & Terdaftar</span>
-                                    </li>
-                                    <li class="d-flex align-items-center gap-2">
-                                        <span class="check-icon">
-                                            <i class="bi bi-check-lg"></i>
-                                        </span>
-                                        <span class="text">Pelatihan Lengkap</span>
-                                    </li>
-                                    <li class="d-flex align-items-center gap-2">
-                                        <span class="check-icon">
-                                            <i class="bi bi-check-lg"></i>
-                                        </span>
-                                        <span class="text">Jalur Pemberangkatan Aman</span>
-                                    </li>
-                                    <li class="d-flex align-items-center gap-2">
-                                        <span class="check-icon">
-                                            <i class="bi bi-check-lg"></i>
-                                        </span>
-                                        <span class="text">Ratusan Alumni Telah Bekerja di Jepang</span>
-                                    </li>
-
-                                </ul>
-
-
-
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="hero-img"><img class="img-main img-fluid rounded-4"
-                                src="{{ asset('images/anime.png') }}" alt="Hero Image" data-aos="fade-in"
-                                data-aos-delay="500"></div>
-                    </div>
-                </div>
                 <div class="container" data-aos="fade-up" data-aos-delay="400">
                     <div class="row">
-                        <div class="col-md-15 order-md-2">
-                            <div class="row justify-content-end">
-                                <div class="mission-statement p-4 rounded-4 d-flex gap-4" data-aos="fade-up"
-                                    data-aos-delay="100">
-                                    <div class="mission-icon text-center rounded-circle"></div>
-                                </div>
-                            </div>
+                <div class="col-md-12 order-md-2">
+                    <div class="row justify-content-end">
+                        <div class="mission-statement p-4 rounded-4 d-flex flex-column gap-3" data-aos="fade-up" data-aos-delay="100">
+                            <div class="mission-icon text-center rounded-circle"></div>
+                            <ul class="list-unstyled m-0 d-flex flex-column gap-2 text-white">
+                                <li class="d-flex align-items-center gap-2">
+                                    <span class="check-icon text-white">
+                                        <i class="bi bi-check-lg"></i>
+                                    </span>
+                                    <span class="text">Resmi & Terdaftar</span>
+                                </li>
+                                <li class="d-flex align-items-center gap-2">
+                                    <span class="check-icon text-white">
+                                        <i class="bi bi-check-lg"></i>
+                                    </span>
+                                    <span class="text">Pelatihan Lengkap</span>
+                                </li>
+                                <li class="d-flex align-items-center gap-2">
+                                    <span class="check-icon text-white">
+                                        <i class="bi bi-check-lg"></i>
+                                    </span>
+                                    <span class="text">Jalur Pemberangkatan Aman</span>
+                                </li>
+                                <li class="d-flex align-items-center gap-2">
+                                    <span class="check-icon text-white">
+                                        <i class="bi bi-check-lg"></i>
+                                    </span>
+                                    <span class="text">Ratusan Alumni Telah Bekerja di Jepang</span>
+                                </li>
+                            </ul>
                         </div>
                     </div>
+                </div>
+            </div>
+
+                </div>
                 </div>
             </div>
             <!-- End Hero-->
         </section>
         <!-- End Hero-->
-
-
         <!-- ======= About =======-->
         <section class="about__v4 section" id="about">
             <div class="container">

@@ -16,6 +16,17 @@
         display: inline-block;
     }
 
+    .badge-subtitle {
+        background: color-mix(in srgb, #B5E9FF, transparent 70%);
+        color: #00265C;
+        display: inline-block;
+        padding: 5px 12px;
+        border-radius: 7px;
+        font-weight: 600;
+        font-size: 0.75rem;
+        margin-bottom: 10px;
+    }
+
     .visi-misi-section {
         padding-top: 100px;
         padding-bottom: 100px;
@@ -81,8 +92,8 @@
 </style>
 
 <div class="container visi-misi-section">
-    <!-- Breadcrumb + Judul -->
-    <span class="badge bg-primary mb-3">Visi dan Misi</span>
+    <!-- Badge + Judul -->
+    <span class="badge-subtitle">Visi dan Misi</span>
     <h2 class="mb-2 fw-bold text-dark">Visi dan Misi</h2>
     <p class="text-muted mb-4">Komitmen LPK Yoshi Sakatana Mandiri dalam membentuk SDM Unggul ke Jepang</p>
 
@@ -91,30 +102,26 @@
         <div class="visi-misi-text">
             <h3 class="visi-title mb-3">Visi</h3>
             <p class="section-subtitle">
-                Mewujudkan Lembaga Pelatihan Kerja
-                yang mempunyai peran dalam
-                meningkatkan keterampilan bagi calon
-                tenaga kerja magang dan skill dalam
-                menghadapi era industrialisasi,
-                informasi dan globalisasi
+                Mewujudkan Lembaga Pelatihan Kerja yang mempunyai peran dalam meningkatkan keterampilan bagi calon tenaga kerja magang dan skill dalam menghadapi era industrialisasi, informasi dan globalisasi.
             </p>
 
             <h3 class="visi-title mt-5 mb-3">Misi</h3>
             <div class="section-subtitle">
-                <div class="misi-item">Pendidikan dan Pelatihan kerja
-                                        khususnya Bahasa dan budaya, Jepang
-                                        untuk mewujudkan Visi Program, serta
-                                        menghasilkan lulusan yang berkualitas
-                                        siap kerja atau berwiraswasta.</div>
-                <div class="misi-item">Menjalin Kerjasama dengan lembaga
-                                        S.O di Indonesia yang akan
-                                        menempatkan para siswa-siswi yang
-                                        terpilih di Perusahaan yang ada di
-                                        Jepang, dalam usaha memberdayakan
-                                        tenaga-tenaga terampil dari Indonesia.</div>
-                <div class="misi-item">Menyiapkan peserta yang siap kerja dan mandiri melalui pembinaan karakter dan keterampilan.</div>
-                <div class="misi-item">Menjalin kerja sama dengan lembaga dalam dan luar negeri untuk memperluas akses pemagangan dan kerja.</div>
-                <div class="misi-item">Memberikan pendampingan kepada peserta dalam proses adaptasi sebelum dan sesudah ke Jepang.</div>
+                <div class="misi-item">
+                    Pendidikan dan Pelatihan kerja khususnya Bahasa dan budaya Jepang untuk mewujudkan Visi Program, serta menghasilkan lulusan yang berkualitas siap kerja atau berwiraswasta.
+                </div>
+                <div class="misi-item">
+                    Menjalin Kerjasama dengan lembaga S.O di Indonesia yang akan menempatkan para siswa-siswi yang terpilih di Perusahaan yang ada di Jepang, dalam usaha memberdayakan tenaga-tenaga terampil dari Indonesia.
+                </div>
+                <div class="misi-item">
+                    Menyiapkan peserta yang siap kerja dan mandiri melalui pembinaan karakter dan keterampilan.
+                </div>
+                <div class="misi-item">
+                    Menjalin kerja sama dengan lembaga dalam dan luar negeri untuk memperluas akses pemagangan dan kerja.
+                </div>
+                <div class="misi-item">
+                    Memberikan pendampingan kepada peserta dalam proses adaptasi sebelum dan sesudah ke Jepang.
+                </div>
             </div>
         </div>
     </div>

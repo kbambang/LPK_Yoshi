@@ -16,6 +16,17 @@
         display: inline-block;
     }
 
+    .badge-subtitle {
+        background: color-mix(in srgb, #B5E9FF, transparent 70%);
+        color: #00265C;
+        display: inline-block;
+        padding: 5px 12px;
+        border-radius: 7px;
+        font-weight: 600;
+        font-size: 0.75rem;
+        margin-bottom: 10px;
+    }
+
     .sejarah-section {
         padding-top: 100px;
         padding-bottom: 100px;
@@ -69,7 +80,7 @@
 
 <div class="container sejarah-section">
     <!-- Badge + Judul -->
-    <span class="badge bg-primary mb-3">Sejarah</span>
+    <span class="badge-subtitle">Sejarah</span>
     <h2 class="mb-2 fw-bold text-dark">Sejarah</h2>
     <p class="text-muted mb-4">Sejarah Terbentuknya LPK Yoshi Sakatana Mandiri</p>
 
@@ -100,4 +111,5 @@
         </div>
     </div>
 </div>
+
 @endsection

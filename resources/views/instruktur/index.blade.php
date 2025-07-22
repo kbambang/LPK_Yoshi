@@ -8,17 +8,30 @@
         padding-bottom: 100px;
     }
 
+    .breadcrumb-custom {
+        background: color-mix(in srgb, #B5E9FF, transparent 70%);
+        color: #00265C;
+        display: inline-block;
+        padding: 5px 12px;
+        border-radius: 7px;
+        font-weight: 600;
+        font-size: 0.75rem;
+        margin-bottom: 10px;
+        font-family: 'Noto Sans JP', sans-serif;
+    }
+
     .instruktur-card {
         border-radius: 12px;
-        {{-- background-image: url('https://images.unsplash.com/photo-1586414209403-a7a0cb9dcd1f?auto=format&fit=crop&w=600&q=60'); --}}
         background-size: cover;
         background-position: center;
         color: white;
         overflow: hidden;
-        min-height: 360px;
+        width: 250px;
+        margin: 0 auto;
         position: relative;
         padding-bottom: 10px;
         transition: all 0.3s ease;
+        min-height: 380px;
     }
 
     .instruktur-card::before {
@@ -38,10 +51,8 @@
     .instruktur-card img {
         object-fit: cover;
         width: 100%;
-        height: 180px;
+        height: 240px;
         border-radius: 8px 8px 0 0;
-        display: block;
-        cursor: pointer;
     }
 
     .instruktur-nama {
@@ -49,6 +60,7 @@
         margin-top: 15px;
         margin-bottom: 5px;
         text-align: center;
+        font-family: 'Noto Sans JP', sans-serif;
     }
 
     .instruktur-profesi {
@@ -86,33 +98,39 @@
     }
 
     @keyframes fadeIn {
-        from { opacity: 0; transform: translateY(10px); }
-        to { opacity: 1; transform: translateY(0); }
+        from {
+            opacity: 0;
+            transform: translateY(10px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
     }
 
     @media (min-width: 768px) {
-        .row-cols-md-4 > * {
+        .row-cols-md-2 > * {
             flex: 0 0 auto;
-            width: 25%;
+            width: 50%;
         }
     }
 </style>
 
 <div class="container instruktur-section mb-5 pb-5">
-    <span class="badge bg-primary mb-3">Instruktur</span>
+    <span class="breadcrumb-custom">Instruktur</span>
     <h2 class="mb-4 fw-bold">Instruktur</h2>
     <p class="text-muted mb-5">Tim instruktur berpengalaman siap membimbing Anda menuju sukses.</p>
 
-    <div class="row row-cols-1 row-cols-md-4 g-4">
+    <div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center">
 
         @foreach ([
             ['nama' => 'Biki Awarudin', 'profesi' => 'Profesor N2', 'foto' => 'images/biki.png'],
             ['nama' => 'Febrian Joko', 'profesi' => 'Profesor N1', 'foto' => 'images/Febri.jpeg'],
-            ['nama' => 'Yuta Nakamura', 'profesi' => 'Sensei Bahasa Jepang', 'foto' => 'images/Yuta.jpg'],
-            ['nama' => 'Sakura Tanaka', 'profesi' => 'Konsultan Karier', 'foto' => 'images/Sakura.jpg']
         ] as $instruktur)
-        <div class="col">
-            <div class="card shadow-sm instruktur-card" onclick="toggleDetail(this)" onmouseleave="hideDetail(this)">
+        <div class="col d-flex justify-content-center">
+            <div class="card shadow-sm instruktur-card"
+                 onmouseenter="showOnlyThisDetail(this)"
+                 onmouseleave="hideAllDetails()">
                 <img src="{{ asset($instruktur['foto']) }}" alt="{{ $instruktur['nama'] }}" onerror="this.src='https://via.placeholder.com/300x180?text=Foto+Tidak+Tersedia'">
                 <div class="instruktur-nama">{{ $instruktur['nama'] }}</div>
                 <div class="instruktur-profesi">{{ $instruktur['profesi'] }}</div>
@@ -132,12 +150,17 @@
 </div>
 
 <script>
-    function toggleDetail(card) {
-        card.classList.toggle('show-detail');
+    function showOnlyThisDetail(el) {
+        document.querySelectorAll('.instruktur-card').forEach(card => {
+            card.classList.remove('show-detail');
+        });
+        el.classList.add('show-detail');
     }
 
-    function hideDetail(card) {
-        card.classList.remove('show-detail');
+    function hideAllDetails() {
+        document.querySelectorAll('.instruktur-card').forEach(card => {
+            card.classList.remove('show-detail');
+        });
     }
 </script>
 @endsection
