@@ -4,37 +4,8 @@
 
 @section('content')
     <title>Yoshi Sakatana Mandiri</title>
-    <style>
-
-        .hero__v6 {
-    min-height: 100vh;
-    width: 100%;
-    background: url('{{ asset('images/shine1.jpg') }}') center center/cover no-repeat;
-    display: flex;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-    padding-top: 100px;
-}
-
-.hero__v6::before {
-    content: "";
-    position: absolute;
-    display: none;
-    inset: 0;
-    background: rgba(255, 255, 255, 0.247); /* filter biru gelap */
-    z-index: 1;
-    margin-top: 70px;
-}
-
-.hero__v6 .container {
-    position: relative;
-    z-index: 2;
-}
-
-
-    </style>
-    <!-- End Header-->
+    
+  
 
     <!-- ======= Main =======-->
     <main>
