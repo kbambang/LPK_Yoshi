@@ -17,7 +17,9 @@
                               Pengumuman
                           </h2>
                           <p data-aos="fade-up" data-aos-delay="200">
-                              Berikut adalah pengumuman terbaru</p>
+                             Temukan informasi penting terkait jadwal pelatihan, pendaftaran program, dan pemberangkatan peserta magang ke Jepang., </p>
+
+
                           <div class="row g-3">
                               <!-- Kartu Berita 1 -->
                               <div class="col-4" data-aos="fade-up" data-aos-delay="0">

@@ -11,6 +11,8 @@ License: https://freebootstrap.net/license
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> Yoshi Sakatana Mandiri </title>
+        <link rel="icon" type="image/png" href="{{ asset('images/logoysm.png') }}">
+
 
     <!-- ======= Google Font =======-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -116,7 +118,7 @@ License: https://freebootstrap.net/license
                         <ul class="navbar-nav nav me-auto ps-lg-5 mb-2 mb-lg-0">
                             <li class="nav-item"><a class="nav-link scroll-link active" aria-current="page"
                                     href="{{ route('Landing') }}">Beranda</a></li>
-                            <li class="nav-item"><a class="nav-link scroll-link" href="#about">Tentang</a></li>
+                            <li class="nav-item"><a class="nav-link scroll-link" href="{{ route('Landing') }}#about">Tentang</a></li>
                             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">profile <i class="bi bi-chevron-down"></i></a>
                             <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="{{ route('sejarah') }}">Sejarah</a></li>
@@ -124,9 +126,9 @@ License: https://freebootstrap.net/license
                             <li><a class="dropdown-item" href="{{ route('visi-misi') }}">Visi & Misi</a></li>
                             </ul>
                             </li>
-                            <li class="nav-item"><a class="nav-link scroll-link" href="#pricing">Program</a></li>
+                            <li class="nav-item"><a class="nav-link scroll-link" href="{{ route('Landing') }}#pricing">Program</a></li>
                             <li class="nav-item"><a class="nav-link scroll-link" href="{{ route('FormDaftar.form') }}">Pendaftaran</a></li>
-                            <li class="nav-item"><a class="nav-link scroll-link" href="#faq">Kontak</a></li>
+                            <li class="nav-item"><a class="nav-link scroll-link" href="{{ route('Landing') }}#contact">Kontak</a></li>
                         </ul>
 
                     </div>
@@ -167,7 +169,7 @@ License: https://freebootstrap.net/license
         @yield('content')
 
 
-        <footer class="footer pt-5 pb-4" style="background-color: #00255c">
+        <footer class="footer pt-5 pb-4" style="background-color: #00255c" id="contact">
             <div class="container">
 
                 <div class="row justify-content-between mb-5 g-xl-5">
@@ -224,7 +226,7 @@ License: https://freebootstrap.net/license
                             </div>
                         </div>
                     </div>
-                </div></div><hr style="color: white">
+                </div><hr style="color: white">
                 <div class="row credits pt-3 justify-content-center">
                     <div class="col-12 text-center" style="color: white">
                         &copy;

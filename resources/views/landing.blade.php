@@ -4,36 +4,7 @@
 
 @section('content')
     <title>Yoshi Sakatana Mandiri</title>
-    <style>
-
-        .hero__v6 {
-    min-height: 100vh;
-    width: 100%;
-    background: url('{{ asset('images/shine1.jpg') }}') center center/cover no-repeat;
-    display: flex;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-    padding-top: 100px;
-}
-
-.hero__v6::before {
-    content: "";
-    position: absolute;
-    display: none;
-    inset: 0;
-    background: rgba(255, 255, 255, 0.247); /* filter biru gelap */
-    z-index: 1;
-    margin-top: 70px;
-}
-
-.hero__v6 .container {
-    position: relative;
-    z-index: 2;
-}
-
-
-    </style>
+   
     <!-- End Header-->
 
     <!-- ======= Main =======-->
@@ -70,44 +41,83 @@
                                 {{-- <div class="logos mb-4" data-aos="fade-up" data-aos-delay="400"><span class="logos-title text-uppercase mb-4 d-block">Trusted by major companies worldwide</span>
                       <div class="logos-images d-flex gap-4 align-items-center"><img class="img-fluid js-img-to-inline-svg" src="assets/images/logo/actual-size/logo-air-bnb__black.svg" alt="Company 1" style="width: 110px;"><img class="img-fluid js-img-to-inline-svg" src="assets/images/logo/actual-size/logo-ibm__black.svg" alt="Company 2" style="width: 80px;"><img class="img-fluid js-img-to-inline-svg" src="assets/images/logo/actual-size/logo-google__black.svg" alt="Company 3" style="width: 110px;"></div>
                     </div> --}}
+
+                                {{-- <ul class="d-flex flex-row flex-wrap list-unstyled gap-3 features" data-aos="fade-up"
+                                    data-aos-delay="400">
+                                    <li class="d-flex align-items-center gap-2">
+                                        <span class="check-icon">
+                                            <i class="bi bi-check-lg"></i>
+                                        </span>
+                                        <span class="text">Resmi & Terdaftar</span>
+                                    </li>
+                                    <li class="d-flex align-items-center gap-2">
+                                        <span class="check-icon">
+                                            <i class="bi bi-check-lg"></i>
+                                        </span>
+                                        <span class="text">Pelatihan Lengkap</span>
+                                    </li>
+                                    <li class="d-flex align-items-center gap-2">
+                                        <span class="check-icon">
+                                            <i class="bi bi-check-lg"></i>
+                                        </span>
+                                        <span class="text">Jalur Pemberangkatan Aman</span>
+                                    </li>
+                                    <li class="d-flex align-items-center gap-2">
+                                        <span class="check-icon">
+                                            <i class="bi bi-check-lg"></i>
+                                        </span>
+                                        <span class="text">Ratusan Alumni Telah Bekerja di Jepang</span>
+                                    </li>
+
+                                </ul> --}}
+
+
+
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-4">
+                        <div class="hero-img"><img class="img-main img-fluid rounded-4"
+                                src="{{ asset('images/maskot.png') }}" alt="Hero Image" data-aos="fade-in"
+                                data-aos-delay="500"></div>
+                    </div>
+                </div>
                 <div class="container" data-aos="fade-up" data-aos-delay="400">
                     <div class="row">
-                <div class="col-md-12 order-md-2">
-                    <div class="row justify-content-end">
-                        <div class="mission-statement p-4 rounded-4 d-flex flex-column gap-3" data-aos="fade-up" data-aos-delay="100">
-                            <div class="mission-icon text-center rounded-circle"></div>
-                            <ul class="list-unstyled m-0 d-flex flex-column gap-2 text-white">
-                                <li class="d-flex align-items-center gap-2">
-                                    <span class="check-icon text-white">
-                                        <i class="bi bi-check-lg"></i>
-                                    </span>
-                                    <span class="text">Resmi & Terdaftar</span>
-                                </li>
-                                <li class="d-flex align-items-center gap-2">
-                                    <span class="check-icon text-white">
-                                        <i class="bi bi-check-lg"></i>
-                                    </span>
-                                    <span class="text">Pelatihan Lengkap</span>
-                                </li>
-                                <li class="d-flex align-items-center gap-2">
-                                    <span class="check-icon text-white">
-                                        <i class="bi bi-check-lg"></i>
-                                    </span>
-                                    <span class="text">Jalur Pemberangkatan Aman</span>
-                                </li>
-                                <li class="d-flex align-items-center gap-2">
-                                    <span class="check-icon text-white">
-                                        <i class="bi bi-check-lg"></i>
-                                    </span>
-                                    <span class="text">Ratusan Alumni Telah Bekerja di Jepang</span>
-                                </li>
-                            </ul>
+                        <div class="col-md-15 order-md-2">
+                            <div class="row justify-content-end">
+                                <div class="mission-statement p-4 rounded-4 d-flex flex-column gap-4" data-aos="fade-up"
+                                    data-aos-delay="100">
+                                    <div class="mission-icon text-center rounded-circle"></div>
+
+                                    <!-- Fitur horizontal: logo besar + teks di bawah -->
+                                    <ul
+                                        class="d-flex flex-row flex-wrap list-unstyled gap-4 m-0 p-0 justify-content-start text-center">
+                                        <li class="d-flex flex-column align-items-center" style="min-width: 250px;">
+                                            <i class="bi bi-shield-check text-primary" style="font-size: 5rem;"></i>
+                                            <span class="mt-2" style="color: white">Resmi & Terdaftar</span>
+                                        </li>
+                                        <li class="d-flex flex-column align-items-center" style="min-width: 250px;">
+                                            <i class="bi bi-mortarboard text-success" style="font-size: 5rem;"></i>
+                                            <span class="mt-2" style="color: white">Pelatihan Lengkap</span>
+                                        </li>
+                                        <li class="d-flex flex-column align-items-center" style="min-width: 250px;">
+                                            <i class="bi bi-airplane-engines text-warning" style="font-size: 5rem;"></i>
+                                            <span class="mt-2" style="color: white">Jalur Pemberangkatan Aman</span>
+                                        </li>
+                                        <li class="d-flex flex-column align-items-center" style="min-width: 250px;">
+                                            <i class="bi bi-people text-danger" style="font-size: 5rem;"></i>
+                                            <span class="mt-1 text-center" style="color: white">Ratusan Alumni<br>Telah
+                                                Bekerja di Jepang</span>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
 
                 </div>
@@ -187,14 +197,23 @@
                                 <img src="{{ asset('images/Picture-tentang.png') }}" class="img img3" />
 
                                 <img src="{{ asset('images/Picture-sannin.png') }}" class="img img4" />
+                                @php
+                                    // Ambil ID Shorts dari URL
+                                    $shortUrl = 'https://youtube.com/shorts/AIUzc7B4RF8?si=kBBNfvCcuSdsaMfl';
+                                    preg_match('/shorts\/([^?]+)/', $shortUrl, $matches);
+                                    $shortId = $matches[1] ?? '';
+                                    $embedUrl = 'https://www.youtube.com/embed/' . $shortId;
+                                @endphp
+
                                 <div class="play-button">
                                     <a class="glightbox d-inline-flex align-items-center gap-2"
-                                        href="https://youtu.be/OKIwI3Kcv-M?si=9pmTD16LyQwom4hs" data-gallery="video"> <img
-                                            src="{{ asset('images/play.png') }}" alt="Play"
-                                            style="width: 50px; height: 50px;" /></i>
+                                        href="{{ $embedUrl }}?autoplay=1" data-type="video" data-gallery="video">
+                                        <img src="{{ asset('images/play.png') }}" alt="Play"
+                                            style="width: 50px; height: 50px;" />
                                         <h1 style="color: white; margin-left: 10px; font-size: 20px;">Play Video</h1>
                                     </a>
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -203,85 +222,7 @@
         </section><br><br><br><br><br>
         <!-- End About-->
 
-        <!-- ======= Features =======-->
-        {{-- <section class="section features__v2" id="features">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="d-lg-flex p-5 rounded-4 content" data-aos="fade-in" data-aos-delay="0">
-                            <div class="row">
-                                <div class="col-lg-5 mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="0">
-                                    <div class="row">
-                                        <div class="col-lg-11">
-                                            <div class="h-100 flex-column justify-content-between d-flex">
-                                                <div>
-                                                    <h2 class="mb-4" style="color: white">Mengapa Memilih Kami
-                                                    </h2>
-                                                    <p class="mb-5" style="color: white">LPK Yoshi Sakatana
-                                                        Mandiri bukan hanya sekadar lembaga pendidikan dan
-                                                        pelatihan, melainkan mitra terpercaya dalam perjalanan Anda
-                                                        untuk mencapai kesuksesan LPK Yoshi Sakatana Mandiri adalah
-                                                        pilihan tepat untuk Anda yang ingin berkembang dan mencapai
-                                                        tujuan karir Anda!</p>
-                                                </div>
-                                                <div class="align-self-start"><a
-                                                        class="glightbox btn btn-play d-inline-flex align-items-center gap-2"
-                                                        href="https://youtu.be/OKIwI3Kcv-M?si=9pmTD16LyQwom4hs"
-                                                        data-gallery="video"><i class="bi bi-play-fill"></i> Play
-                                                        Video</a></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-7">
-                                    <div class="row justify-content-end">
-                                        <div class="col-lg-11">
-                                            <div class="row" style="color: white">
-                                                <div class="col-sm-6" data-aos="fade-up" data-aos-delay="0">
-                                                    <div class="icon text-center mb-4"><i
-                                                            class="bi bi-person-check fs-4"></i></div>
-                                                    <h3 class="fs-6 fw-bold mb-3" style="color: white">Pelatihan
-                                                        Bahasa Jepang Intensif</h3>
-                                                    <p>Dapatkan pelatihan bahasa Jepang dari pengajar profesional
-                                                        untuk mempersiapkan diri secara linguistik dan budaya.</p>
-                                                </div>
-                                                <div class="col-sm-6" data-aos="fade-up" data-aos-delay="100">
-                                                    <div class="icon text-center mb-4"><i class="bi bi-graph-up fs-4"></i>
-                                                    </div>
-                                                    <h3 class="fs-6 fw-bold mb-3" style="color: white">Penempatan
-                                                        Legal & Resmi ke Jepang</h3>
-                                                    <p>Kami bekerja sama dengan lembaga resmi untuk memastikan
-                                                        proses pemagangan sesuai aturan dan legalitas</p>
-                                                </div>
-                                                <div class="col-sm-6" data-aos="fade-up" data-aos-delay="200">
-                                                    <div class="icon text-center mb-4"><i class="bi bi-headset fs-4"></i>
-                                                    </div>
-                                                    <h3 class="fs-6 fw-bold mb-3" style="color: white">Peluang
-                                                        Karir Internasional</h3>
-                                                    <p>Buka jalan menuju karir global dengan pengalaman kerja
-                                                        langsung di Jepang.
-                                                    <p>
-                                                </div>
-                                                <div class="col-sm-6" data-aos="fade-up" data-aos-delay="300">
-                                                    <div class="icon text-center mb-4"><i
-                                                            class="bi bi-shield-lock fs-4"></i></div>
-                                                    <h3 class="fs-6 fw-bold mb-3" style="color: white">Alumni
-                                                        Sukses dan Jaringan Kuat</h3>
-                                                    <p>Bergabung dengan komunitas alumni kami yang telah sukses di
-                                                        Jepang dan kembali membangun karir di Indonesia</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> --}}
-        <!-- End Features-->
-
+      
 
 
         <!-- ======= Pricing =======-->
@@ -628,104 +569,6 @@
 
         {{-- berita --}}
 
-        <section class="section testimonials__v2 " id="testimonials">
-            <div class="container" data-aos="fade-up" data-aos-delay="400">
-                <div class="row g-4" data-masonry='{"percentPosition": true }'>
-
-                    <!-- BERITA (lebih besar) -->
-                    <div class="col-md-12 col-lg-6">
-                        <div><span class="subtitle text-uppercase mb-4">Berita</span></div>
-                        <div class="testimonial rounded-4 p-4">
-                            <div class="row g-3">
-                                <!-- Kartu Berita 1 -->
-                                <div class="col-6">
-                                    <div class="testimonial p-2 rounded-4">
-                                        <!-- Gambar -->
-                                        <div class="rounded-4 overflow-hidden mb-2" style="height: 150px;">
-                                            <img src="{{ asset('images/berita.png') }}" alt=""
-                                                style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
-                                        </div>
-                                        <!-- Konten -->
-                                        <h5 class="fw-bold">Upacara Adat di Panjalu</h5>
-                                        <p class="small mb-1">
-                                            Upacara adat Panjalu adalah tradisi tahunan sebagai ritual pembersihan
-                                            keris yang ada di Bumi Alit.
-                                        </p>
-                                        <p class="text-muted" style="font-size: 0.8rem;">18 Juli 2025</p>
-                                    </div>
-                                </div>
-
-                                <!-- Kartu Berita 2 -->
-                                <div class="col-6" data-aos="fade-up" data-aos-delay="0">
-                                    <div class="testimonial p-2 rounded-4">
-                                        <div class="rounded-4 overflow-hidden mb-2" style="height: 150px;">
-                                            <img src="{{ asset('images/berita1.png') }}" alt=""
-                                                style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
-                                        </div>
-                                        <h5 class="fw-bold">Judul Berita Lain</h5>
-                                        <p class="small mb-1">Ringkasan singkat berita kedua jika tersedia.</p>
-                                        <p class="text-muted" style="font-size: 0.8rem;">17 Juli 2025</p>
-                                    </div>
-                                </div>
-                            </div><br>
-                            <h4 class="text-center"><a href="{{ route('informasi.berita') }}"
-                                    style=" text-decoration: none;">Selengkapnya ></a></h4>
-                        </div>
-                    </div>
-
-
-
-                    <!-- KOLOM KANAN: Selamat dan Pengumuman (dalam satu kolom besar) -->
-                    <div class="col-md-12 col-lg-6">
-                        <div class="row g-4">
-
-                            <!-- SELAMAT -->
-                            <div class="col-12 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                                <div><span class="subtitle text-uppercase mb-4">Selamat</span></div>
-                                <div class="testimonial rounded-4 p-4 text-center overflow-hidden">
-                                    <div class="testimonial p-2 rounded-4 overflow-hidden" style="height: 250px;">
-
-                                        <img src="{{ asset('images/omo.png') }}" alt=""
-                                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
-                                    </div><br>
-                                    <h4 class="text-center"><a href="{{ route('informasi.selamat') }}"
-                                            style=" text-decoration: none;">Selengkapnya ></a></h4>
-                                </div>
-                            </div>
-
-                            <!-- PENGUMUMAN -->
-                            <div class="col-12 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                                <div><span class="subtitle text-uppercase mb-4">Pengumuman</span></div>
-                                <div class="testimonial rounded-4 p-4">
-
-                                    <div class="rounded-4 overflow-hidden mb-3" style="height: 100px;">
-                                        <img src="{{ asset('images/qqq.png') }}" alt=""
-                                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
-                                    </div>
-                                    <div class="rounded-4 overflow-hidden mb-3" style="height: 100px;">
-                                        <img src="{{ asset('images/qqq (2).png') }}" alt=""
-                                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
-                                    </div>
-                                    <div class="rounded-4 overflow-hidden mb-3" style="height: 100px;">
-                                        <img src="{{ asset('images/picture(14).png') }}" alt=""
-                                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
-                                    </div>
-
-                                    <h4 class="text-center"><a href="{{ route('informasi.pengumuman') }}"
-                                            style=" text-decoration: none;">Selengkapnya ></a></h4>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-
-                </div>
-            </div>
-
-            </div>
-            </div>
-        </section>
 
         <section class="text-white d-flex align-items-center" style="background-color: #00255c; min-height: 350px;"
             data-aos="fade-up" data-aos-delay="400">

@@ -808,6 +808,9 @@ h6 {
 .swiper-button-next.testimonial-btn {
     right: -15px;
 }
+.mission-statement ul li {
+    min-width: 250px;
+}
 
 .hero__v6 {
   padding: 10rem 0 !important;
