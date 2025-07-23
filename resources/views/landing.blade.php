@@ -9,7 +9,6 @@
 
     <!-- ======= Main =======-->
     <main>
-        
 
 
         <!-- ======= Hero =======-->
@@ -77,47 +76,47 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
-                        <div class="hero-img"><img class="img-main img-fluid rounded-4"
-                                src="{{ asset('images/maskot.png') }}" alt="Hero Image" data-aos="fade-in"
-                                data-aos-delay="500"></div>
+                   <div class="col-lg-4 d-none d-lg-block">
+    <div class="hero-img">
+        <img class="img-main img-fluid rounded-4"
+            src="{{ asset('images/maskot.png') }}" alt="Hero Image"
+            data-aos="fade-in" data-aos-delay="500">
+    </div>
+</div>
+
+                </div>
+              <div class="container" data-aos="fade-up" data-aos-delay="400" >
+    <div class="row justify-content-center" >
+        <div class="col-12" >
+            <!-- CARD BIRU -->
+            <div class="p-4 rounded-4  text-light" style="width: 100%; background-color: #002355;" >
+                <div class="row g-4 justify-content-center">
+                    <!-- LOGO 1 -->
+                    <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center">
+                        <i class="bi bi-shield-check" style="font-size: 4rem;"></i>
+                        <p class="mt-2 text-center">Resmi & Terdaftar</p>
+                    </div>
+                    <!-- LOGO 2 -->
+                    <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center">
+                        <i class="bi bi-mortarboard" style="font-size: 4rem;"></i>
+                        <p class="mt-2 text-center">Pelatihan Lengkap</p>
+                    </div>
+                    <!-- LOGO 3 -->
+                    <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center">
+                        <i class="bi bi-airplane-engines" style="font-size: 4rem;"></i>
+                        <p class="mt-2 text-center">Jalur Pemberangkatan Aman</p>
+                    </div>
+                    <!-- LOGO 4 -->
+                    <div class="col-12 col-sm-6 col-lg-3 d-flex flex-column align-items-center">
+                        <i class="bi bi-people" style="font-size: 4rem;"></i>
+                        <p class="mt-2 text-center">Ratusan Alumni<br>Telah Bekerja di Jepang</p>
                     </div>
                 </div>
-                <div class="container" data-aos="fade-up" data-aos-delay="400">
-                    <div class="row">
-                        <div class="col-md-15 order-md-2">
-                            <div class="row justify-content-end">
-                                <div class="mission-statement p-4 rounded-4 d-flex flex-column gap-4" data-aos="fade-up"
-                                    data-aos-delay="100">
-                                    <div class="mission-icon text-center rounded-circle"></div>
+            </div>
+        </div>
+    </div>
+</div>
 
-                                    <!-- Fitur horizontal: logo besar + teks di bawah -->
-                                    <ul
-                                        class="d-flex flex-row flex-wrap list-unstyled gap-4 m-0 p-0 justify-content-start text-center">
-                                        <li class="d-flex flex-column align-items-center" style="min-width: 250px;">
-                                            <i class="bi bi-shield-check text-primary" style="font-size: 5rem;"></i>
-                                            <span class="mt-2" style="color: white">Resmi & Terdaftar</span>
-                                        </li>
-                                        <li class="d-flex flex-column align-items-center" style="min-width: 250px;">
-                                            <i class="bi bi-mortarboard text-success" style="font-size: 5rem;"></i>
-                                            <span class="mt-2" style="color: white">Pelatihan Lengkap</span>
-                                        </li>
-                                        <li class="d-flex flex-column align-items-center" style="min-width: 250px;">
-                                            <i class="bi bi-airplane-engines text-warning" style="font-size: 5rem;"></i>
-                                            <span class="mt-2" style="color: white">Jalur Pemberangkatan Aman</span>
-                                        </li>
-                                        <li class="d-flex flex-column align-items-center" style="min-width: 250px;">
-                                            <i class="bi bi-people text-danger" style="font-size: 5rem;"></i>
-                                            <span class="mt-1 text-center" style="color: white">Ratusan Alumni<br>Telah
-                                                Bekerja di Jepang</span>
-                                        </li>
-                                    </ul>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
             </div>
 
@@ -151,38 +150,38 @@
                                 <ul class="flex-row flex-wrap list-unstyled gap-3 features" data-aos="fade-up"
                                     data-aos-delay="400">
                                     <li class="d-flex align-items-center gap-2 mb-3">
-                                        <span class="check-icon">
-                                            <i class="bi bi-check-lg"></i>
+                                        <span class="">
+                                            <i class="misi-item"></i>
                                         </span>
                                         <span class="text">Fasilitas Lengkap & Nyaman</span>
                                     </li>
                                     <li class="d-flex align-items-center gap-2 mb-3">
-                                        <span class="check-icon">
-                                            <i class="bi bi-check-lg"></i>
+                                        <span class="">
+                                            <i class="misi-item"></i>
                                         </span>
                                         <span class="text">Pelatihan Budaya & Etika Kerja Jepang</span>
                                     </li>
                                     <li class="d-flex align-items-center gap-2 mb-3">
-                                        <span class="check-icon">
-                                            <i class="bi bi-check-lg"></i>
+                                        <span class="">
+                                            <i class="misi-item"></i>
                                         </span>
                                         <span class="text">Proses Pemberangkatan Terstruktur</span>
                                     </li>
                                     <li class="d-flex align-items-center gap-2 mb-3">
-                                        <span class="check-icon">
-                                            <i class="bi bi-check-lg"></i>
+                                        <span class="">
+                                            <i class="misi-item"></i>
                                         </span>
                                         <span class="text">Terdaftar Resmi & Legal</span>
                                     </li>
                                     <li class="d-flex align-items-center gap-2 mb-3">
-                                        <span class="check-icon">
-                                            <i class="bi bi-check-lg"></i>
+                                        <span class="">
+                                            <i class="misi-item"></i>
                                         </span>
                                         <span class="text">Pembelajaran Bahasa Jepang N5-N3</span>
                                     </li>
                                     <li class="d-flex align-items-center gap-2 mb-3">
-                                        <span class="check-icon">
-                                            <i class="bi bi-check-lg"></i>
+                                        <span class="">
+                                            <i class="misi-item"></i>
                                         </span>
                                         <span class="text">Dibimbing Mentor Berpengalaman</span>
                                     </li>
@@ -191,33 +190,33 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
-                        <div class="img-wrap position-relative">
-                            <div class="image-container">
-                                <img src="{{ asset('images/Picture-hitori.png') }}" class="img img1" />
-                                <img src="{{ asset('images/Picture-tentang.png') }}" class="img img3" />
+                 @php
+    // Mengambil ID dari URL video
+    $shortUrl = 'https://youtube.com/shorts/AIUzc7B4RF8?si=kBBNfvCcuSdsaMfl';
+    preg_match('/shorts\/([^?]+)/', $shortUrl, $matches);
+    $shortId = $matches[1] ?? '';
+    $embedUrl = 'https://www.youtube.com/embed/' . $shortId;
+@endphp
 
-                                <img src="{{ asset('images/Picture-sannin.png') }}" class="img img4" />
-                                @php
-                                    // Ambil ID Shorts dari URL
-                                    $shortUrl = 'https://youtube.com/shorts/AIUzc7B4RF8?si=kBBNfvCcuSdsaMfl';
-                                    preg_match('/shorts\/([^?]+)/', $shortUrl, $matches);
-                                    $shortId = $matches[1] ?? '';
-                                    $embedUrl = 'https://www.youtube.com/embed/' . $shortId;
-                                @endphp
+<div class="col-md-6 d-none d-md-block" data-aos="fade-up" data-aos-delay="400">
+    <div class="img-wrap position-relative">
+        <div class="image-container">
+            <img src="{{ asset('images/Picture-hitori.png') }}" class="img img1" />
+            <img src="{{ asset('images/Picture-tentang.png') }}" class="img img3" />
+            <img src="{{ asset('images/Picture-sannin.png') }}" class="img img4" />
 
-                                <div class="play-button">
-                                    <a class="glightbox d-inline-flex align-items-center gap-2"
-                                        href="{{ $embedUrl }}?autoplay=1" data-type="video" data-gallery="video">
-                                        <img src="{{ asset('images/play.png') }}" alt="Play"
-                                            style="width: 50px; height: 50px;" />
-                                        <h1 style="color: white; margin-left: 10px; font-size: 20px;">Play Video</h1>
-                                    </a>
-                                </div>
+            <div class="play-button">
+                <a class="glightbox d-inline-flex align-items-center gap-2"
+                    href="{{ $embedUrl }}?autoplay=1" data-type="video" data-gallery="video">
+                    <img src="{{ asset('images/play.png') }}" alt="Play"
+                        style="width: 50px; height: 50px;" />
+                    <h1 style="color: white; margin-left: 10px; font-size: 20px;">Play Video</h1>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
 
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section><br><br><br><br><br>
@@ -568,7 +567,104 @@
         <!-- Testimonials-->
 
 
-        {{-- berita --}}
+      <section class="section testimonials__v2 " id="testimonials">
+            <div class="container" data-aos="fade-up" data-aos-delay="400">
+                <div class="row g-4" data-masonry='{"percentPosition": true }'>
+
+                    <!-- BERITA (lebih besar) -->
+                    <div class="col-md-12 col-lg-6">
+                        <div><span class="subtitle text-uppercase mb-4">Berita</span></div>
+                        <div class="testimonial rounded-4 p-4">
+                            <div class="row g-3">
+                                <!-- Kartu Berita 1 -->
+                                <div class="col-6">
+                                    <div class="testimonial p-2 rounded-4">
+                                        <!-- Gambar -->
+                                        <div class="rounded-4 overflow-hidden mb-2" style="height: 150px;">
+                                            <img src="{{ asset('images/berita.png') }}" alt=""
+                                                style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                                        </div>
+                                        <!-- Konten -->
+                                        <h5 class="fw-bold">Upacara Adat di Panjalu</h5>
+                                        <p class="small mb-1">
+                                            Upacara adat Panjalu adalah tradisi tahunan sebagai ritual pembersihan
+                                            keris yang ada di Bumi Alit.
+                                        </p>
+                                        <p class="text-muted" style="font-size: 0.8rem;">18 Juli 2025</p>
+                                    </div>
+                                </div>
+
+                                <!-- Kartu Berita 2 -->
+                                <div class="col-6" data-aos="fade-up" data-aos-delay="0">
+                                    <div class="testimonial p-2 rounded-4">
+                                        <div class="rounded-4 overflow-hidden mb-2" style="height: 150px;">
+                                            <img src="{{ asset('images/berita1.png') }}" alt=""
+                                                style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                                        </div>
+                                        <h5 class="fw-bold">Judul Berita Lain</h5>
+                                        <p class="small mb-1">Ringkasan singkat berita kedua jika tersedia.</p>
+                                        <p class="text-muted" style="font-size: 0.8rem;">17 Juli 2025</p>
+                                    </div>
+                                </div>
+                            </div><br>
+                            <h4 class="text-center"><a href="{{ route('informasi.berita') }}"
+                                    style=" text-decoration: none;">Selengkapnya ></a></h4>
+                        </div>
+                    </div>
+
+
+
+                    <!-- KOLOM KANAN: Selamat dan Pengumuman (dalam satu kolom besar) -->
+                    <div class="col-md-12 col-lg-6">
+                        <div class="row g-4">
+
+                            <!-- SELAMAT -->
+                            <div class="col-12 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                                <div><span class="subtitle text-uppercase mb-4">Selamat</span></div>
+                                <div class="testimonial rounded-4 p-4 text-center overflow-hidden">
+                                    <div class="testimonial p-2 rounded-4 overflow-hidden" style="height: 250px;">
+
+                                        <img src="{{ asset('images/omo.png') }}" alt=""
+                                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                                    </div><br>
+                                    <h4 class="text-center"><a href="{{ route('informasi.selamat') }}"
+                                            style=" text-decoration: none;">Selengkapnya ></a></h4>
+                                </div>
+                            </div>
+
+                            <!-- PENGUMUMAN -->
+                            <div class="col-12 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                                <div><span class="subtitle text-uppercase mb-4">Pengumuman</span></div>
+                                <div class="testimonial rounded-4 p-4">
+
+                                    <div class="rounded-4 overflow-hidden mb-3" style="height: 100px;">
+                                        <img src="{{ asset('images/qqq.png') }}" alt=""
+                                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                                    </div>
+                                    <div class="rounded-4 overflow-hidden mb-3" style="height: 100px;">
+                                        <img src="{{ asset('images/qqq (2).png') }}" alt=""
+                                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                                    </div>
+                                    <div class="rounded-4 overflow-hidden mb-3" style="height: 100px;">
+                                        <img src="{{ asset('images/picture(14).png') }}" alt=""
+                                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;">
+                                    </div>
+
+                                    <h4 class="text-center"><a href="{{ route('informasi.pengumuman') }}"
+                                            style=" text-decoration: none;">Selengkapnya ></a></h4>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            </div>
+            </div>
+        </section>
 
 
         <section class="text-white d-flex align-items-center" style="background-color: #00255c; min-height: 350px;"

@@ -85,7 +85,7 @@
     <p class="text-muted mb-4">Sejarah Terbentuknya LPK Yoshi Sakatana Mandiri</p>
 
     <!-- Gambar -->
-    <img src="{{ asset('images/tentang.png') }}" alt="Sejarah LPK" class="sejarah-image mb-5">
+    <img src="{{ asset('images/picture(5).png') }}" alt="Sejarah LPK" class="sejarah-image mb-5">
 
     <!-- Isi dalam Card ala Jepang -->
     <div class="sejarah-card mt-3">

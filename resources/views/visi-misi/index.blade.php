@@ -100,12 +100,12 @@
     <!-- Card Background ala Jepang -->
     <div class="visi-misi-card mt-3">
         <div class="visi-misi-text">
-            <h3 class="visi-title mb-3">Visi</h3>
+            <h3 class="visi-title mb-3" style="color: #000">Visi</h3>
             <p class="section-subtitle">
                 Mewujudkan Lembaga Pelatihan Kerja yang mempunyai peran dalam meningkatkan keterampilan bagi calon tenaga kerja magang dan skill dalam menghadapi era industrialisasi, informasi dan globalisasi.
             </p>
 
-            <h3 class="visi-title mt-5 mb-3">Misi</h3>
+            <h3 class="visi-title mt-5 mb-3"  style="color: #000">Misi</h3>
             <div class="section-subtitle">
                 <div class="misi-item">
                     Pendidikan dan Pelatihan kerja khususnya Bahasa dan budaya Jepang untuk mewujudkan Visi Program, serta menghasilkan lulusan yang berkualitas siap kerja atau berwiraswasta.

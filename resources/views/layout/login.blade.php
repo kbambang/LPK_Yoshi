@@ -100,11 +100,11 @@ License: https://freebootstrap.net/license
 
 
                                 <!-- logo dark--><img class="logo dark img-fluid"
-                                    src="{{ asset('nova/assets/images/logo-dark.svg') }}"
+                                                                    src="{{ asset('images/logoysm.png') }} " style="width: 50px; height: 50px;"
                                     alt="FreeBootstrap.net image placeholder">
 
                                 <!-- logo light--><img class="logo light img-fluid"
-                                    src="{{ asset('nova/assets/images/logo-light.svg') }}"
+                                                                     src="{{ asset('images/logoysm.png') }} " style="width: 50px; height: 50px;"
                                     alt="FreeBootstrap.net image placeholder"></a>
 
                         </div>

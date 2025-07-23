@@ -17,9 +17,7 @@
                               Gallry
                           </h2>
                           <p data-aos="fade-up" data-aos-delay="200">
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                              been the
-                              industry's standard dummy text ever since the 1500s, </p>
+                             Di sini Anda dapat melihat berbagai dokumentasi kegiatan pelatihan, seleksi, dan keberangkatan peserta ke Jepang. </p>
 
 
                           <div class="row g-3">
@@ -50,7 +48,7 @@
                               <div class="col-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
-                                          <img src="{{ asset('images/picture(2).png') }}" alt=""
+                                          <img src="{{ asset('images/picture(3).png') }}" alt=""
                                               style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
                                       </div>
                                      
@@ -63,7 +61,7 @@
                                   <div class="testimonial p-2 rounded-4">
                                       <!-- Gambar -->
                                       <div class="rounded-4 overflow-hidden mb-2">
-                                          <img src="{{ asset('images/picture(3).png') }}" alt=""
+                                          <img src="{{ asset('images/picture(2).png') }}" alt=""
                                               style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
                                       </div>
                                       <!-- Konten -->
@@ -76,6 +74,16 @@
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(4).png') }}" alt=""
+                                              style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                                      </div>
+                                     
+                                  </div>
+                              </div>
+                              <!-- Kartu Berita 2 -->
+                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+                                  <div class="testimonial p-2 rounded-4">
+                                      <div class="rounded-4 overflow-hidden mb-2">
+                                          <img src="{{ asset('images/picture(5).png') }}" alt=""
                                               style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
                                       </div>
                                      
@@ -163,6 +171,197 @@
                                     
                                   </div>
                               </div>
+                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+                                  <div class="testimonial p-2 rounded-4">
+                                      <div class="rounded-4 overflow-hidden mb-2">
+                                          <img src="{{ asset('images/picture(14).png') }}" alt=""
+                                              style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                                      </div>
+                                    
+                                  </div>
+                              </div>
+                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+                                  <div class="testimonial p-2 rounded-4">
+                                      <div class="rounded-4 overflow-hidden mb-2">
+                                          <img src="{{ asset('images/picture(16).png') }}" alt=""
+                                              style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                                      </div>
+                                    
+                                  </div>
+                              </div>
+                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+                                  <div class="testimonial p-2 rounded-4">
+                                      <div class="rounded-4 overflow-hidden mb-2">
+                                          <img src="{{ asset('images/picture(17).png') }}" alt=""
+                                              style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                                      </div>
+                                    
+                                  </div>
+                              </div>
+                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+                                  <div class="testimonial p-2 rounded-4">
+                                      <div class="rounded-4 overflow-hidden mb-2">
+                                          <img src="{{ asset('images/picture(18).png') }}" alt=""
+                                              style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                                      </div>
+                                    
+                                  </div>
+                              </div>
+                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+                                  <div class="testimonial p-2 rounded-4">
+                                      <div class="rounded-4 overflow-hidden mb-2">
+                                          <img src="{{ asset('images/picture(19).png') }}" alt=""
+                                              style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                                      </div>
+                                    
+                                  </div>
+                              </div>
+                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+                                  <div class="testimonial p-2 rounded-4">
+                                      <div class="rounded-4 overflow-hidden mb-2">
+                                          <img src="{{ asset('images/picture(20).png') }}" alt=""
+                                              style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                                      </div>
+                                    
+                                  </div>
+                              </div>
+                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+                                  <div class="testimonial p-2 rounded-4">
+                                      <div class="rounded-4 overflow-hidden mb-2">
+                                          <img src="{{ asset('images/picture(21).png') }}" alt=""
+                                              style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                                      </div>
+                                    
+                                  </div>
+                              </div>
+                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+                                  <div class="testimonial p-2 rounded-4">
+                                      <div class="rounded-4 overflow-hidden mb-2">
+                                          <img src="{{ asset('images/picture(22).png') }}" alt=""
+                                              style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                                      </div>
+                                    
+                                  </div>
+                              </div>
+                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+                                  <div class="testimonial p-2 rounded-4">
+                                      <div class="rounded-4 overflow-hidden mb-2">
+                                          <img src="{{ asset('images/picture(23).png') }}" alt=""
+                                              style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                                      </div>
+                                    
+                                  </div>
+                              </div>
+                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+                                  <div class="testimonial p-2 rounded-4">
+                                      <div class="rounded-4 overflow-hidden mb-2">
+                                          <img src="{{ asset('images/picture(24).png') }}" alt=""
+                                              style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                                      </div>
+                                    
+                                  </div>
+                              </div>
+                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+                                  <div class="testimonial p-2 rounded-4">
+                                      <div class="rounded-4 overflow-hidden mb-2">
+                                          <img src="{{ asset('images/picture(25).png') }}" alt=""
+                                              style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                                      </div>
+                                    
+                                  </div>
+                              </div>
+                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+                                  <div class="testimonial p-2 rounded-4">
+                                      <div class="rounded-4 overflow-hidden mb-2">
+                                          <img src="{{ asset('images/picture(26).png') }}" alt=""
+                                              style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                                      </div>
+                                    
+                                  </div>
+                              </div>
+                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+                                  <div class="testimonial p-2 rounded-4">
+                                      <div class="rounded-4 overflow-hidden mb-2">
+                                          <img src="{{ asset('images/picture(27).png') }}" alt=""
+                                              style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                                      </div>
+                                    
+                                  </div>
+                              </div>
+                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+                                  <div class="testimonial p-2 rounded-4">
+                                      <div class="rounded-4 overflow-hidden mb-2">
+                                          <img src="{{ asset('images/picture(28).png') }}" alt=""
+                                              style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                                      </div>
+                                    
+                                  </div>
+                              </div>
+                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+                                  <div class="testimonial p-2 rounded-4">
+                                      <div class="rounded-4 overflow-hidden mb-2">
+                                          <img src="{{ asset('images/picture(29).png') }}" alt=""
+                                              style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                                      </div>
+                                    
+                                  </div>
+                              </div>
+                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+                                  <div class="testimonial p-2 rounded-4">
+                                      <div class="rounded-4 overflow-hidden mb-2">
+                                          <img src="{{ asset('images/picture(30).png') }}" alt=""
+                                              style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                                      </div>
+                                    
+                                  </div>
+                              </div>
+                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+                                  <div class="testimonial p-2 rounded-4">
+                                      <div class="rounded-4 overflow-hidden mb-2">
+                                          <img src="{{ asset('images/picture(31).png') }}" alt=""
+                                              style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                                      </div>
+                                    
+                                  </div>
+                              </div>
+                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+                                  <div class="testimonial p-2 rounded-4">
+                                      <div class="rounded-4 overflow-hidden mb-2">
+                                          <img src="{{ asset('images/picture(32).png') }}" alt=""
+                                              style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                                      </div>
+                                    
+                                  </div>
+                              </div>
+                             
+                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+                                  <div class="testimonial p-2 rounded-4">
+                                      <div class="rounded-4 overflow-hidden mb-2">
+                                          <img src="{{ asset('images/picture(34).png') }}" alt=""
+                                              style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                                      </div>
+                                    
+                                  </div>
+                              </div>
+                               <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+                                  <div class="testimonial p-2 rounded-4">
+                                      <div class="rounded-4 overflow-hidden mb-2">
+                                          <img src="{{ asset('images/picture(33).png') }}" alt=""
+                                              style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                                      </div>
+                                    
+                                  </div>
+                              </div>
+                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+                                  <div class="testimonial p-2 rounded-4">
+                                      <div class="rounded-4 overflow-hidden mb-2">
+                                          <img src="{{ asset('images/picture(35).png') }}" alt=""
+                                              style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;">
+                                      </div>
+                                    
+                                  </div>
+                              </div>
+                              
                           </div>
 
 

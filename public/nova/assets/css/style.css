@@ -184,6 +184,28 @@ h6 {
   font-weight: 600;
 
 }
+ .gallery-image {
+        transition: transform 0.4s ease, box-shadow 0.3s ease;
+        cursor: pointer;
+    }
+
+    .gallery-image:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    }
+ .misi-item {
+        margin-bottom: 1rem;
+        position: relative;
+        padding-left: 1.5rem;
+    }
+
+    .misi-item::before {
+        content: '✓';
+        position: absolute;
+        left: 0;
+        color: #2b7a78;
+        font-weight: bold;
+    }
 .btn {
   padding: 12px 20px;
   background-color: #00265C;

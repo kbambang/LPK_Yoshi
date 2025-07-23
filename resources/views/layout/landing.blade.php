@@ -11,7 +11,7 @@ License: https://freebootstrap.net/license
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> Yoshi Sakatana Mandiri </title>
-        <link rel="icon" type="image/png" href="{{ asset('images/logoysm.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('images/logoysm.png') }}">
 
 
     <!-- ======= Google Font =======-->
@@ -22,6 +22,9 @@ License: https://freebootstrap.net/license
     <script src="{{ asset('nova/assets/vendors/bootstrap/bootstrap.bundle.min.js') }}"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Glightbox CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet">
+
 
 
 
@@ -100,11 +103,11 @@ License: https://freebootstrap.net/license
 
 
                                 <!-- logo dark--><img class="logo dark img-fluid"
-                                    src="{{ asset('nova/assets/images/logo-dark.svg') }}"
+                                    src="{{ asset('images/logoysm.png') }} " style="width: 50px; height: 50px;"
                                     alt="FreeBootstrap.net image placeholder">
 
                                 <!-- logo light--><img class="logo light img-fluid"
-                                    src="{{ asset('nova/assets/images/logo-light.svg') }}"
+                                    src="{{ asset('images/logoysm.png') }} " style="width: 50px; height: 50px;"
                                     alt="FreeBootstrap.net image placeholder"></a>
 
                         </div>
@@ -118,17 +121,23 @@ License: https://freebootstrap.net/license
                         <ul class="navbar-nav nav me-auto ps-lg-5 mb-2 mb-lg-0">
                             <li class="nav-item"><a class="nav-link scroll-link active" aria-current="page"
                                     href="{{ route('Landing') }}">Beranda</a></li>
-                            <li class="nav-item"><a class="nav-link scroll-link" href="{{ route('Landing') }}#about">Tentang</a></li>
-                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">profile <i class="bi bi-chevron-down"></i></a>
-                            <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="{{ route('sejarah') }}">Sejarah</a></li>
-                            <li><a class="dropdown-item" href="{{ route('instruktur') }}">Instruktur</a></li>
-                            <li><a class="dropdown-item" href="{{ route('visi-misi') }}">Visi & Misi</a></li>
-                            </ul>
+                            <li class="nav-item"><a class="nav-link scroll-link"
+                                    href="{{ route('Landing') }}#about">Tentang</a></li>
+                            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#"
+                                    data-bs-toggle="dropdown" aria-expanded="false">profile <i
+                                        class="bi bi-chevron-down"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="{{ route('sejarah') }}">Sejarah</a></li>
+                                    <li><a class="dropdown-item" href="{{ route('instruktur') }}">Instruktur</a></li>
+                                    <li><a class="dropdown-item" href="{{ route('visi-misi') }}">Visi & Misi</a></li>
+                                </ul>
                             </li>
-                            <li class="nav-item"><a class="nav-link scroll-link" href="{{ route('Landing') }}#pricing">Program</a></li>
-                            <li class="nav-item"><a class="nav-link scroll-link" href="{{ route('FormDaftar.form') }}">Pendaftaran</a></li>
-                            <li class="nav-item"><a class="nav-link scroll-link" href="{{ route('Landing') }}#contact">Kontak</a></li>
+                            <li class="nav-item"><a class="nav-link scroll-link"
+                                    href="{{ route('Landing') }}#pricing">Program</a></li>
+                            <li class="nav-item"><a class="nav-link scroll-link"
+                                    href="{{ route('FormDaftar.form') }}">Pendaftaran</a></li>
+                            <li class="nav-item"><a class="nav-link scroll-link"
+                                    href="{{ route('Landing') }}#contact">Kontak</a></li>
                         </ul>
 
                     </div>
@@ -138,7 +147,8 @@ License: https://freebootstrap.net/license
                 <div class="ms-auto w-auto">
 
 
-                               <div class="header-social d-flex align-items-center gap-1"><a class="btn btn-primary py-2"  href="{{ route('login') }}">Login</a>
+                    <div class="header-social d-flex align-items-center gap-1"><a class="btn btn-primary py-2"
+                            href="{{ route('login') }}">Login</a>
 
 
                         <button class="fbs__net-navbar-toggler justify-content-center align-items-center ms-auto"
@@ -173,16 +183,16 @@ License: https://freebootstrap.net/license
             <div class="container">
 
                 <div class="row justify-content-between mb-5 g-xl-5">
-                    <div class="col-md-6 mb-5 mb-lg-0 d-flex">
-                        <img src="{{ asset('images/logoysm.png') }}" alt=""
-                            style="width: 150px; height: 150px">
+                  <div class="col-md-6 mb-5 mb-lg-0 d-flex ">
+    <img src="{{ asset('images/logoysm.png') }}" alt=""
+        style="width: 150px; height: 150px">
 
-                        <p class="mb-4 " style="margin-left: 10px; color: white;">LPK Yoshi Sakatana Mandiri adalah
-                            lembaga pelatihan kerja yang berkomitmen mempersiapkan generasi unggul untuk bekerja dan
-                            berkarya di Jepang melalui pelatihan bahasa, budaya, dan etika kerja yang berkualitas.
+    <p class="mb-4 d-none  d-md-flex" style="margin-left: 10px; color: white;">
+        LPK Yoshi Sakatana Mandiri adalah lembaga pelatihan kerja yang berkomitmen mempersiapkan generasi unggul
+        untuk bekerja dan berkarya di Jepang melalui pelatihan bahasa, budaya, dan etika kerja yang berkualitas.
+    </p>
+</div>
 
-                        </p>
-                    </div>
                     <div class="col-md-6">
                         <div class="row g-2">
                             <div class="col-md-4 col-lg-2 mb-4 mb-lg-0">
@@ -199,34 +209,41 @@ License: https://freebootstrap.net/license
                             </div>
                             <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
                                 <h3 class="mb-3" style="color: rgb(255, 255, 255)">Sosial Media</h3>
-                                <ul class="list-unstyled" >
-                                    <li><a href="https://www.instagram.com/lpk_yoshisakatana?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" style="color: white"><i class="fab fa-instagram me-2"></i>Instagram</a>
+                                <ul class="list-unstyled">
+                                    <li><a href="https://www.instagram.com/lpk_yoshisakatana?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                                            style="color: white"><i class="fab fa-instagram me-2"></i>Instagram</a>
                                     </li>
-                                    <li><a href="https://www.tiktok.com/@lpk_yoshisakatanamandiri?is_from_webapp=1&sender_device=pc" style="color: white"><i
-                                                class="fab fa-tiktok me-2"></i>Tiktok</a></li>
-                                    <li><a href="page-signin.html" style="color: white"><i class="fab fa-facebook-f me-2"></i>Facebook</a>
+                                    <li><a href="https://www.tiktok.com/@lpk_yoshisakatanamandiri?is_from_webapp=1&sender_device=pc"
+                                            style="color: white"><i class="fab fa-tiktok me-2"></i>Tiktok</a></li>
+                                    <li><a href="page-signin.html" style="color: white"><i
+                                                class="fab fa-facebook-f me-2"></i>Facebook</a>
                                     </li>
                                     <li><a href="page-forgot-password.html" style="color: white"><i
                                                 class="fab fa-twitter me-2"></i>Twitter</a></li>
-                                    <li><a href="https://www.youtube.com/channel/UC_4Uw_33YavH8SbRw9hyrRQ" style="color: white"><i class="fab fa-youtube me-2"></i>Youtube</a>
+                                    <li><a href="https://www.youtube.com/channel/UC_4Uw_33YavH8SbRw9hyrRQ"
+                                            style="color: white"><i class="fab fa-youtube me-2"></i>Youtube</a>
                                     </li>
                                 </ul>
                             </div>
 
-                            <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 quick-contact" >
+                            <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 quick-contact">
                                 <h3 class="mb-3" style="color: rgb(255, 255, 255)">Kontak</h3>
-                                <p class="d-flex mb-3" style="color: white"><i class="bi bi-geo-alt-fill me-3" style="color: white"></i><span>Jl.Raya Simpang
+                                <p class="d-flex mb-3" style="color: white"><i class="bi bi-geo-alt-fill me-3"
+                                        style="color: white"></i><span>Jl.Raya Simpang
                                         Panjalu DsnSriwinangun DesPanjalu RT52RW23 Panjalu Ciamis</span></p><a
                                     class="d-flex mb-3" href="mailto:info@mydomain.com" style="color: white"><i
-                                        class="bi bi-envelope-fill me-3" style="color: white"></i><span>yoshisakatanamandiri@gmail.com</span></a><a
+                                        class="bi bi-envelope-fill me-3"
+                                        style="color: white"></i><span>yoshisakatanamandiri@gmail.com</span></a><a
                                     class="d-flex mb-3" href="tel://+123456789900"><i
-                                        class="bi bi-telephone-fill me-3" style="color: white"></i><span style="color: white">+62 822-1623-2156</span></a><a
-                                    class="d-flex mb-3" href="https://freebootstrap.net" style="color: white"><i
-                                        class="bi bi-globe me-3" style="color: white"></i><span>yoshisakatanamandiri.com</span></a>
+                                        class="bi bi-telephone-fill me-3" style="color: white"></i><span
+                                        style="color: white">+62 822-1623-2156</span></a><a class="d-flex mb-3"
+                                    href="https://freebootstrap.net" style="color: white"><i class="bi bi-globe me-3"
+                                        style="color: white"></i><span>yoshisakatanamandiri.com</span></a>
                             </div>
                         </div>
                     </div>
-                </div><hr style="color: white">
+                </div>
+                <hr style="color: white">
                 <div class="row credits pt-3 justify-content-center">
                     <div class="col-12 text-center" style="color: white">
                         &copy;
