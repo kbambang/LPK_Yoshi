@@ -14,7 +14,7 @@
                       <span class="hero-subtitle text-uppercase" data-aos="fade-up" data-aos-delay="0">Selamat datang</span>
                       <h3 class="hero-titlee mb-3" data-aos="fade-up">
                           <h2 class="mb-3" data-aos="fade-up" data-aos-delay="100">
-                              Gallry
+                              Gallery
                           </h2>
                           <p data-aos="fade-up" data-aos-delay="200">
                              Di sini Anda dapat melihat berbagai dokumentasi kegiatan pelatihan, seleksi, dan keberangkatan peserta ke Jepang. </p>
@@ -22,7 +22,7 @@
 
                           <div class="row g-3">
                               <!-- Kartu Berita 1 -->
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <!-- Gambar -->
                                       <div class="rounded-4 overflow-hidden mb-2" >
@@ -35,7 +35,7 @@
                               </div>
 
                               <!-- Kartu Berita 2 -->
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(1).png') }}" alt=""
@@ -45,7 +45,7 @@
                                   </div>
                               </div>
 
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(3).png') }}" alt=""
@@ -57,7 +57,7 @@
                           </div>
                           <div class="row g-3">
                               <!-- Kartu Berita 1 -->
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <!-- Gambar -->
                                       <div class="rounded-4 overflow-hidden mb-2">
@@ -70,7 +70,7 @@
                               </div>
 
                               <!-- Kartu Berita 2 -->
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(4).png') }}" alt=""
@@ -80,7 +80,7 @@
                                   </div>
                               </div>
                               <!-- Kartu Berita 2 -->
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(5).png') }}" alt=""
@@ -90,7 +90,7 @@
                                   </div>
                               </div>
 
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(6).png') }}" alt=""
@@ -99,7 +99,7 @@
                                     
                                   </div>
                               </div>
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(7).png') }}" alt=""
@@ -108,7 +108,7 @@
                                     
                                   </div>
                               </div>
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(8).png') }}" alt=""
@@ -117,7 +117,7 @@
                                     
                                   </div>
                               </div>
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(9).png') }}" alt=""
@@ -126,7 +126,7 @@
                                     
                                   </div>
                               </div>
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(10).png') }}" alt=""
@@ -135,7 +135,7 @@
                                     
                                   </div>
                               </div>
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(11).png') }}" alt=""
@@ -144,7 +144,7 @@
                                     
                                   </div>
                               </div>
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(12).png') }}" alt=""
@@ -153,7 +153,7 @@
                                     
                                   </div>
                               </div>
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(13).png') }}" alt=""
@@ -162,7 +162,7 @@
                                     
                                   </div>
                               </div>
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(14).png') }}" alt=""
@@ -171,7 +171,7 @@
                                     
                                   </div>
                               </div>
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(14).png') }}" alt=""
@@ -180,7 +180,7 @@
                                     
                                   </div>
                               </div>
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(16).png') }}" alt=""
@@ -189,7 +189,7 @@
                                     
                                   </div>
                               </div>
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(17).png') }}" alt=""
@@ -198,7 +198,7 @@
                                     
                                   </div>
                               </div>
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(18).png') }}" alt=""
@@ -207,7 +207,7 @@
                                     
                                   </div>
                               </div>
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(19).png') }}" alt=""
@@ -216,7 +216,7 @@
                                     
                                   </div>
                               </div>
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(20).png') }}" alt=""
@@ -225,7 +225,7 @@
                                     
                                   </div>
                               </div>
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(21).png') }}" alt=""
@@ -234,7 +234,7 @@
                                     
                                   </div>
                               </div>
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(22).png') }}" alt=""
@@ -243,7 +243,7 @@
                                     
                                   </div>
                               </div>
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(23).png') }}" alt=""
@@ -252,7 +252,7 @@
                                     
                                   </div>
                               </div>
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(24).png') }}" alt=""
@@ -261,7 +261,7 @@
                                     
                                   </div>
                               </div>
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(25).png') }}" alt=""
@@ -270,7 +270,7 @@
                                     
                                   </div>
                               </div>
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(26).png') }}" alt=""
@@ -279,7 +279,7 @@
                                     
                                   </div>
                               </div>
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(27).png') }}" alt=""
@@ -288,7 +288,7 @@
                                     
                                   </div>
                               </div>
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(28).png') }}" alt=""
@@ -297,7 +297,7 @@
                                     
                                   </div>
                               </div>
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(29).png') }}" alt=""
@@ -306,7 +306,7 @@
                                     
                                   </div>
                               </div>
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(30).png') }}" alt=""
@@ -315,7 +315,7 @@
                                     
                                   </div>
                               </div>
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(31).png') }}" alt=""
@@ -324,7 +324,7 @@
                                     
                                   </div>
                               </div>
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(32).png') }}" alt=""
@@ -334,7 +334,7 @@
                                   </div>
                               </div>
                              
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(34).png') }}" alt=""
@@ -343,7 +343,7 @@
                                     
                                   </div>
                               </div>
-                               <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+ <div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(33).png') }}" alt=""
@@ -352,7 +352,7 @@
                                     
                                   </div>
                               </div>
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2">
                                           <img src="{{ asset('images/picture(35).png') }}" alt=""

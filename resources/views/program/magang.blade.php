@@ -58,31 +58,35 @@
 
 
 
-
-
-                  <div class="container py-5">
+                  <div class="container py-5" data-aos="fade-up" data-aos-delay="200">
                       <div class="row mb-5">
                           <div class="col-md-10 text-center mx-auto">
-                              <h2 class="fw-bold">Alur Program IM JAPAN</h2>
+                              <h2 class="fw-bold">Alur Program Magang</h2>
                           </div>
                       </div>
 
-                      <div class="row gx-2 gy-4 justify-content-center ">
+                      <div class="row gx-2 gy-4 justify-content-center">
 
-                          <div class="col-12 col-md-auto d-flex align-items-center">
-                              <div class="step-card text-white px-3 py-3 rounded text-nowrap small shadow-sm"
-                                  style="background-color: #002355;">
-                                  1. Pendaftaran
+                          <!-- STEP 1 -->
+                          <div
+                              class="col-12 col-md-auto d-flex align-items-center flex-column flex-md-row text-center text-md-start">
+                              <div class="text-white px-3 py-3 rounded shadow-sm"
+                                  style="background-color: #002355; min-width: 200px;">
+                                  1. Pendaftaran Awal
                               </div>
-                              <div class="px-2 fs-4 d-none d-md-block" style="color: #002355;">&rarr;</div>
-                              <div class="w-100 d-block d-md-none text-center mt-2 mb-2" style="color: #002355;">&darr;
+                              <div class="mt-2 mt-md-0 mx-0 mx-md-2">
+                                  <i class="bi bi-arrow-right-circle fs-3 text-primary d-none d-md-inline"></i>
+                                  <i class="bi bi-arrow-down-circle fs-3 text-primary d-inline d-md-none"></i>
                               </div>
                           </div>
 
-                          <div class="col-12 col-md-auto d-flex align-items-center">
-                              <div class="step-card text-white px-3 py-3 rounded text-nowrap small shadow-sm"
-                                  style="background-color: #002355;">
-                                  <ul>
+                          <!-- STEP 2 -->
+                          <div
+                              class="col-12 col-md-auto d-flex align-items-center flex-column flex-md-row text-center text-md-start">
+                              <div class="text-white px-3 py-3 rounded shadow-sm"
+                                  style="background-color: #002355; min-width: 200px;">
+                                  2. Tes
+                                  <ul class="mt-2 mb-0" style="padding-left: 20px;">
                                       <li>MCU DASAR</li>
                                       <li>Test Psikologi</li>
                                       <li>WAWANCARA
@@ -90,115 +94,130 @@
                                           PIHAK LPK</li>
                                   </ul>
                               </div>
-                              <div class="px-2 fs-4 d-none d-md-block" style="color: #002355;">&rarr;</div>
-                              <div class="w-100 d-block d-md-none text-center mt-2 mb-2" style="color: #002355;">&darr;
+                              <div class="mt-2 mt-md-0 mx-0 mx-md-2">
+                                  <i class="bi bi-arrow-right-circle fs-3 text-primary d-none d-md-inline"></i>
+                                  <i class="bi bi-arrow-down-circle fs-3 text-primary d-inline d-md-none"></i>
                               </div>
                           </div>
 
-                          <div class="col-12 col-md-auto d-flex align-items-center">
-                              <div class="step-card text-white px-3 py-3 rounded text-nowrap small shadow-sm"
-                                  style="background-color: #002355;">
-                                  PENDIDIKAN ± 3
-                                  BULAN
+                          <!-- STEP 3 -->
+                          <div
+                              class="col-12 col-md-auto d-flex align-items-center flex-column flex-md-row text-center text-md-start">
+                              <div class="text-white px-3 py-3 rounded shadow-sm"
+                                  style="background-color: #002355; min-width: 200px;">
+                                  3. PENDIDIKAN ± 3 BULAN
                               </div>
-                              <div class="px-2 fs-4 d-none d-md-block" style="color: #002355;">&rarr;</div>
-                              <div class="w-100 d-block d-md-none text-center mt-2 mb-2" style="color: #002355;">&darr;
+                              <div class="mt-2 mt-md-0 mx-0 mx-md-2">
+                                  <i class="bi bi-arrow-right-circle fs-3 text-primary d-none d-md-inline"></i>
+                                  <i class="bi bi-arrow-down-circle fs-3 text-primary d-inline d-md-none"></i>
                               </div>
                           </div>
 
-                          <div class="col-12 col-md-auto d-flex align-items-center">
-                              <div class="step-card text-white px-3 py-3 rounded text-nowrap small shadow-sm"
-                                  style="background-color: #002355;">
+                          <!-- STEP 4 -->
+                          <div
+                              class="col-12 col-md-auto d-flex align-items-center flex-column flex-md-row text-center text-md-start">
+                              <div class="text-white px-3 py-3 rounded shadow-sm"
+                                  style="background-color: #002355; min-width: 200px;">
                                   4. MATCHING JOB
                               </div>
-                              <div class="px-2 fs-4 d-none d-md-block" style="color: #002355;">&rarr;</div>
-                              <div class="w-100 d-block d-md-none text-center mt-2 mb-2" style="color: #002355;">&darr;
+                              <div class="mt-2 mt-md-0 mx-0 mx-md-2">
+                                  <i class="bi bi-arrow-right-circle fs-3 text-primary d-none d-md-inline"></i>
+                                  <i class="bi bi-arrow-down-circle fs-3 text-primary d-inline d-md-none"></i>
                               </div>
                           </div>
-
-                          <div class="col-12 col-md-auto d-flex align-items-center">
-                              <div class="step-card text-white px-3 py-3 rounded text-nowrap small shadow-sm"
-                                  style="background-color: #002355;">
+                          <div
+                              class="col-12 col-md-auto d-flex align-items-center flex-column flex-md-row text-center text-md-start">
+                              <div class="text-white px-3 py-3 rounded shadow-sm"
+                                  style="background-color: #002355; min-width: 200px;">
                                   5. WAWANCARA
                                   DENGAN USER
                                   JEPANG
                               </div>
-                              <div class="px-2 fs-4 d-none d-md-block" style="color: #002355;">&rarr;</div>
-                              <div class="w-100 d-block d-md-none text-center mt-2 mb-2" style="color: #002355;">&darr;
+                              <div class="mt-2 mt-md-0 mx-0 mx-md-2">
+                                  <i class="bi bi-arrow-right-circle fs-3 text-primary d-none d-md-inline"></i>
+                                  <i class="bi bi-arrow-down-circle fs-3 text-primary d-inline d-md-none"></i>
                               </div>
                           </div>
-
-                          <div class="col-12 col-md-auto d-flex align-items-center">
-                              <div class="step-card text-white px-3 py-3 rounded text-nowrap small shadow-sm"
-                                  style="background-color: #002355;">
+                          <div
+                              class="col-12 col-md-auto d-flex align-items-center flex-column flex-md-row text-center text-md-start">
+                              <div class="text-white px-3 py-3 rounded shadow-sm"
+                                  style="background-color: #002355; min-width: 200px;">
                                   6. MCU
                                   (JIKA
                                   DINYATAKAN
                                   LOLOS)
                               </div>
-                              <div class="px-2 fs-4 d-none d-md-block" style="color: #002355;">&rarr;</div>
-                              <div class="w-100 d-block d-md-none text-center mt-2 mb-2" style="color: #002355;">&darr;
+                              <div class="mt-2 mt-md-0 mx-0 mx-md-2">
+                                  <i class="bi bi-arrow-right-circle fs-3 text-primary d-none d-md-inline"></i>
+                                  <i class="bi bi-arrow-down-circle fs-3 text-primary d-inline d-md-none"></i>
                               </div>
                           </div>
-
-                          <div class="col-12 col-md-auto d-flex align-items-center">
-                              <div class="step-card text-white px-3 py-3 rounded text-nowrap small shadow-sm"
-                                  style="background-color: #002355;">
+                          <div
+                              class="col-12 col-md-auto d-flex align-items-center flex-column flex-md-row text-center text-md-start">
+                              <div class="text-white px-3 py-3 rounded shadow-sm"
+                                  style="background-color: #002355; min-width: 200px;">
                                   7. TANDA TANGAN
                                   KONTRAK
                               </div>
-                              <div class="px-2 fs-4 d-none d-md-block" style="color: #002355;">&rarr;</div>
-                              <div class="w-100 d-block d-md-none text-center mt-2 mb-2" style="color: #002355;">&darr;
+                              <div class="mt-2 mt-md-0 mx-0 mx-md-2">
+                                  <i class="bi bi-arrow-right-circle fs-3 text-primary d-none d-md-inline"></i>
+                                  <i class="bi bi-arrow-down-circle fs-3 text-primary d-inline d-md-none"></i>
                               </div>
                           </div>
-
-                          <div class="col-12 col-md-auto d-flex align-items-center">
-                              <div class="step-card text-white px-3 py-3 rounded text-nowrap small shadow-sm"
-                                  style="background-color: #002355;">
+                          <div
+                              class="col-12 col-md-auto d-flex align-items-center flex-column flex-md-row text-center text-md-start">
+                              <div class="text-white px-3 py-3 rounded shadow-sm"
+                                  style="background-color: #002355; min-width: 200px;">
                                   8. PEMANTAPAN ± 3
                                   BULAN
                               </div>
-                              <div class="px-2 fs-4 d-none d-md-block" style="color: #002355;">&rarr;</div>
-                              <div class="w-100 d-block d-md-none text-center mt-2 mb-2" style="color: #002355;">&darr;
+                              <div class="mt-2 mt-md-0 mx-0 mx-md-2">
+                                  <i class="bi bi-arrow-right-circle fs-3 text-primary d-none d-md-inline"></i>
+                                  <i class="bi bi-arrow-down-circle fs-3 text-primary d-inline d-md-none"></i>
                               </div>
                           </div>
-
-                          <div class="col-12 col-md-auto d-flex align-items-center">
-                              <div class="step-card text-white px-3 py-3 rounded text-nowrap small shadow-sm"
-                                  style="background-color: #002355;">
+                          <div
+                              class="col-12 col-md-auto d-flex align-items-center flex-column flex-md-row text-center text-md-start">
+                              <div class="text-white px-3 py-3 rounded shadow-sm"
+                                  style="background-color: #002355; min-width: 200px;">
                                   9. TERBIT /
                                   TURUNNYA COE
                               </div>
-                              <div class="px-2 fs-4 d-none d-md-block" style="color: #002355;">&rarr;</div>
-                              <div class="w-100 d-block d-md-none text-center mt-2 mb-2" style="color: #002355;">&darr;
+                              <div class="mt-2 mt-md-0 mx-0 mx-md-2">
+                                  <i class="bi bi-arrow-right-circle fs-3 text-primary d-none d-md-inline"></i>
+                                  <i class="bi bi-arrow-down-circle fs-3 text-primary d-inline d-md-none"></i>
                               </div>
                           </div>
-
-                          <div class="col-12 col-md-auto d-flex align-items-center">
-                              <div class="step-card text-white px-3 py-3 rounded text-nowrap small shadow-sm"
-                                  style="background-color: #002355;">
+                          <div
+                              class="col-12 col-md-auto d-flex align-items-center flex-column flex-md-row text-center text-md-start">
+                              <div class="text-white px-3 py-3 rounded shadow-sm"
+                                  style="background-color: #002355; min-width: 200px;">
                                   10. PEMBERANKATAKE JEPANG
                               </div>
-                              <div class="px-2 fs-4 d-none d-md-block" style="color: #002355;">&rarr;</div>
-                              <div class="w-100 d-block d-md-none text-center mt-2 mb-2" style="color: #002355;">&darr;
+                              <div class="mt-2 mt-md-0 mx-0 mx-md-2">
+                                  <i class="bi bi-arrow-right-circle fs-3 text-primary d-none d-md-inline"></i>
+                                  <i class="bi bi-arrow-down-circle fs-3 text-primary d-inline d-md-none"></i>
                               </div>
                           </div>
-
-                          <div class="col-12 col-md-auto d-flex align-items-center">
-                              <div class="step-card text-white px-3 py-3 rounded text-nowrap small shadow-sm"
-                                  style="background-color: #002355;">
+                          <div
+                              class="col-12 col-md-auto d-flex align-items-center flex-column flex-md-row text-center text-md-start">
+                              <div class="text-white px-3 py-3 rounded shadow-sm"
+                                  style="background-color: #002355; min-width: 200px;">
                                   11. KERJA / MAGANG
                                   SELAMA 3~5
                                   TAHUN
                               </div>
-                              <div class="px-2 fs-4 d-none d-md-block" style="color: #002355;">&rarr;</div>
-                              <div class="w-100 d-block d-md-none text-center mt-2 mb-2" style="color: #002355;">&darr;
+                              <div class="mt-2 mt-md-0 mx-0 mx-md-2">
+                                  <i class="bi bi-arrow-right-circle fs-3 text-primary d-none d-md-inline"></i>
+                                  <i class="bi bi-arrow-down-circle fs-3 text-primary d-inline d-md-none"></i>
                               </div>
                           </div>
 
-                          <div class="col-12 col-md-auto d-flex align-items-center">
-                              <div class="step-card text-white px-3 py-3 rounded text-nowrap small shadow-sm"
-                                  style="background-color: #002355;">
+                          <!-- STEP 5 -->
+                          <div
+                              class="col-12 col-md-auto d-flex align-items-center flex-column flex-md-row text-center text-md-start">
+                              <div class="text-white px-3 py-3 rounded shadow-sm"
+                                  style="background-color: #002355; min-width: 200px;">
                                   12. PULANG KE
                                   INDONESIA
                               </div>
@@ -206,7 +225,12 @@
 
                       </div>
                   </div>
+
+
+
               </div>
+
+
 
               <p style="font-size: 15px" data-aos="fade-up" data-aos-delay="200">
                   Keterangan : </p>
@@ -219,11 +243,12 @@
                       perusahaan.</li>
               </ul>
 
-             <div class="text-center mt-5">
-            <a href="{{ route('FormDaftar.form') }}" class="btn btn-lg fw-semibold px-4 py-2" style="background-color: #cce9ff; color: #002355;">
-                Daftar Sekarang
-            </a>
-        </div>
+              <div class="text-center mt-5">
+                  <a href="{{ route('FormDaftar.form') }}" class="btn btn-lg fw-semibold px-4 py-2"
+                      style="background-color: #cce9ff; color: #002355;">
+                      Daftar Sekarang
+                  </a>
+              </div>
 
           </div>
           </div>

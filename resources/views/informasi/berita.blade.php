@@ -22,7 +22,7 @@
 
                           <div class="row g-3">
                               <!-- Kartu Berita 1 -->
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <!-- Gambar -->
                                       <div class="rounded-4 overflow-hidden mb-2" style="height: 150px;">
@@ -40,7 +40,7 @@
                               </div>
 
                               <!-- Kartu Berita 2 -->
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2" style="height: 150px;">
                                           <img src="{{ asset('images/berita1.png') }}" alt=""
@@ -52,7 +52,7 @@
                                   </div>
                               </div>
 
-                              <div class="col-4" data-aos="fade-up" data-aos-delay="0">
+<div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
                                   <div class="testimonial p-2 rounded-4">
                                       <div class="rounded-4 overflow-hidden mb-2" style="height: 150px;">
                                           <img src="{{ asset('images/berita1.png') }}" alt=""

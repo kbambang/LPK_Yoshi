@@ -82,61 +82,63 @@
                   dalam proses seleksi maka akan diahlikan
                   ke program pemagangan Jalur Swasta. </p>
 
-            <div class="container py-5" data-aos="fade-up" data-aos-delay="200">
-  <div class="row mb-5">
-    <div class="col-md-10 text-center mx-auto">
-      <h2>Alur Program IM JAPAN</h2>
-    </div>
-  </div>
+              <div class="container py-5" data-aos="fade-up" data-aos-delay="200">
+                  <div class="row mb-5">
+                      <div class="col-md-10 text-center mx-auto">
+                          <h2>Alur Program IM JAPAN</h2>
+                      </div>
+                  </div>
 
-  <div class="row gx-2 gy-4 justify-content-center">
+                  <div class="row gx-2 gy-4 justify-content-center">
 
-    @for ($i = 1; $i <= 10; $i++)
-      <div class="col-12 col-md-auto d-flex align-items-center flex-column flex-md-row text-center text-md-start">
-        <div class="step-card text-white px-3 py-3 rounded shadow-sm" style="background-color: #002355; white-space: nowrap;">
-          @if ($i == 1)
-            1. Pendaftaran
-          @elseif ($i == 2)
-            2. Pendidikan Pra Test (±2 Bulan)
-          @elseif ($i == 3)
-            3. Seleksi IM JAPAN
-            <ul class="mb-0">
-              <li>FISIK / SMAPTA</li>
-              <li>MATEMATIKA</li>
-              <li>BAHASA JEPANG DASAR</li>
-              <li>MCU</li>
-            </ul>
-          @elseif ($i == 4)
-            4. Wawancara Program
-          @elseif ($i == 5)
-            5. Pendidikan Daerah (±3 Bulan)
-          @elseif ($i == 6)
-            6. Wawancara dengan User Jepang
-          @elseif ($i == 7)
-            7. Pendidikan Pusat (±2 Bulan)
-          @elseif ($i == 8)
-            8. Berangkat ke Jepang
-          @elseif ($i == 9)
-            9. Kerja / Magang 3-5 Tahun
-          @elseif ($i == 10)
-            10. Pulang ke Indonesia
-          @endif
-        </div>
+                      @for ($i = 1; $i <= 10; $i++)
+                          <div
+                              class="col-12 col-md-auto d-flex align-items-center flex-column flex-md-row text-center text-md-start">
+                              <div class="step-card text-white px-3 py-3 rounded shadow-sm"
+                                  style="background-color: #002355; white-space: nowrap;">
+                                  @if ($i == 1)
+                                      1. Pendaftaran
+                                  @elseif ($i == 2)
+                                      2. Pendidikan Pra Test (±2 Bulan)
+                                  @elseif ($i == 3)
+                                      3. Seleksi IM JAPAN
+                                      <ul class="mb-0">
+                                          <li>FISIK / SMAPTA</li>
+                                          <li>MATEMATIKA</li>
+                                          <li>BAHASA JEPANG DASAR</li>
+                                          <li>MCU</li>
+                                      </ul>
+                                  @elseif ($i == 4)
+                                      4. Wawancara Program
+                                  @elseif ($i == 5)
+                                      5. Pendidikan Daerah (±3 Bulan)
+                                  @elseif ($i == 6)
+                                      6. Wawancara dengan User Jepang
+                                  @elseif ($i == 7)
+                                      7. Pendidikan Pusat (±2 Bulan)
+                                  @elseif ($i == 8)
+                                      8. Berangkat ke Jepang
+                                  @elseif ($i == 9)
+                                      9. Kerja / Magang 3-5 Tahun
+                                  @elseif ($i == 10)
+                                      10. Pulang ke Indonesia
+                                  @endif
+                              </div>
 
-        @if ($i < 10)
-          <div class="mt-2 mt-md-0 mx-0 mx-md-2">
-            <!-- Panah horizontal (desktop) -->
-            <i class="bi bi-arrow-right-circle fs-3 text-primary d-none d-md-inline"></i>
-            <!-- Panah vertikal (mobile) -->
-            <i class="bi bi-arrow-down-circle fs-3 text-primary d-inline d-md-none"></i>
-          </div>
-        @endif
-      </div>
-    @endfor
+                              @if ($i < 10)
+                                  <div class="mt-2 mt-md-0 mx-0 mx-md-2">
+                                      <!-- Panah horizontal (desktop) -->
+                                      <i class="bi bi-arrow-right-circle fs-3 text-primary d-none d-md-inline"></i>
+                                      <!-- Panah vertikal (mobile) -->
+                                      <i class="bi bi-arrow-down-circle fs-3 text-primary d-inline d-md-none"></i>
+                                  </div>
+                              @endif
+                          </div>
+                      @endfor
 
-  </div>
-</div>
-    
+                  </div>
+              </div>
+
 
 
               <p style="font-size: 15px" data-aos="fade-up" data-aos-delay="200">
