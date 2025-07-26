@@ -219,7 +219,7 @@
 
                 </div>
             </div>
-        </section><br><br><br><br><br>
+        </section>
         <!-- End About-->
 
 
@@ -271,7 +271,7 @@
                     <!-- IM Japan -->
                     <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
                         <div class="p-5 rounded-4 price-table h-100">
-                            <h3>TOKUTEI
+                            <h3>PROGRAM BIMBINGAN TOKUTEI
                                 GINOU
                                 VISA KERJA</h3>
                             <p>Tokutei Ginou (特定技能) adalah program visa kerja yang dibuat oleh

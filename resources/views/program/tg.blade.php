@@ -168,12 +168,14 @@
                               class="col-12 col-md-auto d-flex align-items-center flex-column flex-md-row text-center text-md-start">
                               <div class="text-white px-3 py-3 rounded shadow-sm"
                                   style="background-color: #002355; min-width: 200px;">
-                                  8. PEMBERKASAN
-                                  <div class="mt-2 mt-md-0 mx-0 mx-md-2">
-                                      <i class="bi bi-arrow-right-circle fs-3 text-primary d-none d-md-inline"></i>
-                                      <i class="bi bi-arrow-down-circle fs-3 text-primary d-inline d-md-none"></i>
-                                  </div>
+                                   8. PEMBERKASAN
                               </div>
+                              <div class="mt-2 mt-md-0 mx-0 mx-md-2">
+                                  <i class="bi bi-arrow-right-circle fs-3 text-primary d-none d-md-inline"></i>
+                                  <i class="bi bi-arrow-down-circle fs-3 text-primary d-inline d-md-none"></i>
+                              </div>
+                          </div>
+
                               <div
                                   class="col-12 col-md-auto d-flex align-items-center flex-column flex-md-row text-center text-md-start">
                                   <div class="text-white px-3 py-3 rounded shadow-sm"

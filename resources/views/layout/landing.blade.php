@@ -123,6 +123,7 @@ License: https://freebootstrap.net/license
                     <li class="nav-item"><a class="nav-link scroll-link" href="{{ route('FormDaftar.form') }}">Pendaftaran</a></li>
                     <li class="nav-item"><a class="nav-link scroll-link" href="{{ route('Landing') }}#contact">Kontak</a></li>
                 </ul>
+                 <div id="google_translate_element" class="me-3"></div>
 
                 <!-- Tambahkan tombol login untuk mobile -->
                 <div class="d-lg-none mt-3">
@@ -236,6 +237,20 @@ License: https://freebootstrap.net/license
         <!-- End Footer-->
 
         </main>
+        <script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+      pageLanguage: 'id',
+      includedLanguages: 'id,ja,en',
+      layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+    }, 'google_translate_element');
+  }
+</script>
+
+<script type="text/javascript"
+  src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+</script>
+
     </div>
 
     <!-- ======= Back to Top =======-->
