@@ -37,8 +37,9 @@
     .form-wrapper {
         width: 100%;
         max-width: 400px;
-        padding: 40px;
+        padding: 40px 30px;
         box-sizing: border-box;
+        margin-top: -40px; /* agar tidak terlalu ke bawah di mobile */
     }
 
     .form-wrapper h1 {
@@ -100,25 +101,24 @@
     }
 
     .kanji-center {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%) rotate(180deg);
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    font-size: 8rem; /* bebas lo gas pol */
-    font-family: 'Noto Sans JP', sans-serif;
-    font-weight: bold;
-    color: red;
-    opacity: 0.9;
-    z-index: 3;
-    pointer-events: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%) rotate(180deg);
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        font-size: 8rem;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-weight: bold;
+        color: #00265C;
+        opacity: 0.9;
+        z-index: 3;
+        pointer-events: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     @media (max-width: 768px) {
         .login-container {
@@ -131,15 +131,24 @@
             height: 50vh;
         }
 
+        .form-wrapper {
+            margin-top: -20px;
+            padding: 30px 20px;
+        }
+
         .kanji-center {
-            font-size: 3rem;
-            transform: translate(-50%, -30%) rotate(180deg);
+            writing-mode: horizontal-tb;
+            text-orientation: mixed;
+            font-size: 2.5rem;
+            transform: translate(-50%, -50%) rotate(0);
+            top: 50%;
+            left: 50%;
         }
     }
 </style>
 
 <section class="hero__v10 section">
-    <div class="login-container">
+    <div class="login-container ">
         <!-- Form -->
         <div class="form-section">
             <div class="form-wrapper">
@@ -160,10 +169,13 @@
         </div>
 
         <!-- Kanji Tengah -->
-        <div class="kanji-center">吉坂棚</div>
+        <div class="d-none d-md-block">
+            <div class="kanji-center">吉坂棚</div>
+        </div>
+
 
         <!-- Gambar -->
-        <div class="image-section">
+        <div class="image-section d-none d-md-block">
             <img src="{{ asset('images/shine1.jpeg') }}" alt="Gambar Jepang">
         </div>
     </div>

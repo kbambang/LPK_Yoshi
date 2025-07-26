@@ -206,7 +206,7 @@ h6 {
         color: #2b7a78;
         font-weight: bold;
     }
-    
+
 .btn {
   padding: 12px 20px;
   background-color: #00265C;
@@ -716,7 +716,7 @@ h6 {
 }
 
 .fbs__net-navbar.dark a {
-  color: var(--inverse-color) !important;
+  color: white
 }
 .fbs__net-navbar.dark a:hover {
   color: var(--inverse-color);

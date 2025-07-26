@@ -4,7 +4,7 @@
 
 @section('content')
     <title>Yoshi Sakatana Mandiri</title>
-   
+
     <!-- End Header-->
 
     <!-- ======= Main =======-->
@@ -222,7 +222,7 @@
         </section><br><br><br><br><br>
         <!-- End About-->
 
-      
+
 
 
         <!-- ======= Pricing =======-->

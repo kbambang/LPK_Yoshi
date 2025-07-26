@@ -2,6 +2,7 @@
 
 @section('content')
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
 <style>
     .instruktur-section {
         padding-top: 100px;
@@ -20,63 +21,62 @@
         font-family: 'Noto Sans JP', sans-serif;
     }
 
+    .instruktur-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px; /* jarak antar card */
+        justify-content: flex-start; /* rapat di kiri */
+    }
+
     .instruktur-card {
         border-radius: 12px;
-        background-size: cover;
-        background-position: center;
+        background: #00265C;
         color: white;
         overflow: hidden;
-        width: 250px;
-        margin: 0 auto;
+        width: 180px;
         position: relative;
-        padding-bottom: 10px;
-        transition: all 0.3s ease;
-        min-height: 380px;
+        min-height: 320px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: transform 0.3s ease;
     }
 
-    .instruktur-card::before {
-        content: '';
-        position: absolute;
-        inset: 0;
-        background: #00265C;
-        z-index: 1;
-        border-radius: 12px;
-    }
-
-    .instruktur-card * {
-        position: relative;
-        z-index: 2;
+    .instruktur-card:hover {
+        transform: scale(1.03);
     }
 
     .instruktur-card img {
         object-fit: cover;
         width: 100%;
-        height: 240px;
+        height: 200px;
         border-radius: 8px 8px 0 0;
     }
 
     .instruktur-nama {
         font-weight: 600;
-        margin-top: 15px;
-        margin-bottom: 5px;
+        margin-top: 10px;
+        margin-bottom: 3px;
         text-align: center;
         font-family: 'Noto Sans JP', sans-serif;
+        font-size: 0.95rem;
     }
 
     .instruktur-profesi {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         color: #f0f0f0;
         text-align: center;
     }
 
     .sosmed-icons {
         text-align: center;
-        margin-top: 10px;
+        margin-top: 5px;
     }
 
     .sosmed-icons a {
-        margin: 0 6px;
-        font-size: 1.3rem;
+        margin: 0 4px;
+        font-size: 1.1rem;
         color: #fff;
     }
 
@@ -84,34 +84,34 @@
         color: #ffc107;
     }
 
+    /* Detail overlay */
     .instruktur-detail {
-        display: none;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 38, 92, 0.95);
+        color: #fff;
+        padding: 10px;
         text-align: center;
-        padding: 10px 20px;
-        font-size: 0.9rem;
-        color: #ddd;
+        font-size: 0.8rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
     }
 
     .instruktur-card.show-detail .instruktur-detail {
-        display: block;
-        animation: fadeIn 0.3s ease;
+        left: 0; /* slide dari kanan ke kiri */
     }
 
-    @keyframes fadeIn {
-        from {
-            opacity: 0;
-            transform: translateY(10px);
+    @media (max-width: 767px) {
+        .instruktur-wrapper {
+            justify-content: center;
         }
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    }
-
-    @media (min-width: 768px) {
-        .row-cols-md-2 > * {
-            flex: 0 0 auto;
-            width: 50%;
+        .instruktur-card {
+            width: 85%;
         }
     }
 </style>
@@ -121,46 +121,37 @@
     <h2 class="mb-4 fw-bold">Instruktur</h2>
     <p class="text-muted mb-5">Tim instruktur berpengalaman siap membimbing Anda menuju sukses.</p>
 
-    <div class="row row-cols-1 row-cols-md-2 g-4 justify-content-center">
-
+    <div class="instruktur-wrapper">
         @foreach ([
             ['nama' => 'Biki Awarudin', 'profesi' => 'Profesor N2', 'foto' => 'images/biki.png'],
             ['nama' => 'Febrian Joko', 'profesi' => 'Profesor N1', 'foto' => 'images/Febri.jpeg'],
         ] as $instruktur)
-        <div class="col d-flex justify-content-center">
-            <div class="card shadow-sm instruktur-card"
-                 onmouseenter="showOnlyThisDetail(this)"
-                 onmouseleave="hideAllDetails()">
-                <img src="{{ asset($instruktur['foto']) }}" alt="{{ $instruktur['nama'] }}" onerror="this.src='https://via.placeholder.com/300x180?text=Foto+Tidak+Tersedia'">
-                <div class="instruktur-nama">{{ $instruktur['nama'] }}</div>
-                <div class="instruktur-profesi">{{ $instruktur['profesi'] }}</div>
-                <div class="sosmed-icons">
-                    <a href="#"><i class="bi bi-instagram"></i></a>
-                    <a href="#"><i class="bi bi-tiktok"></i></a>
-                    <a href="#"><i class="bi bi-twitter-x"></i></a>
-                </div>
-                <div class="instruktur-detail">
-                    {{ $instruktur['nama'] }} adalah seorang {{ $instruktur['profesi'] }} yang telah memiliki pengalaman bertahun-tahun di bidangnya.
-                </div>
+        <div class="card shadow-sm instruktur-card">
+            <img src="{{ asset($instruktur['foto']) }}" alt="{{ $instruktur['nama'] }}"
+                 onerror="this.src='https://via.placeholder.com/300x180?text=Foto+Tidak+Tersedia'">
+            <div class="instruktur-nama">{{ $instruktur['nama'] }}</div>
+            <div class="instruktur-profesi">{{ $instruktur['profesi'] }}</div>
+            <div class="sosmed-icons">
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-tiktok"></i></a>
+                <a href="#"><i class="bi bi-twitter-x"></i></a>
+            </div>
+            <div class="instruktur-detail">
+                {{ $instruktur['nama'] }} adalah seorang {{ $instruktur['profesi'] }} yang telah memiliki pengalaman bertahun-tahun di bidangnya.
             </div>
         </div>
         @endforeach
-
     </div>
 </div>
 
 <script>
-    function showOnlyThisDetail(el) {
-        document.querySelectorAll('.instruktur-card').forEach(card => {
+    document.querySelectorAll('.instruktur-card').forEach(card => {
+        card.addEventListener('mouseenter', () => {
+            card.classList.add('show-detail');
+        });
+        card.addEventListener('mouseleave', () => {
             card.classList.remove('show-detail');
         });
-        el.classList.add('show-detail');
-    }
-
-    function hideAllDetails() {
-        document.querySelectorAll('.instruktur-card').forEach(card => {
-            card.classList.remove('show-detail');
-        });
-    }
+    });
 </script>
 @endsection
